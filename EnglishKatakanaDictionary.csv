@@ -1,566 +1,1426 @@
-"ability,"アビリティー(能力)"
-"abstract,"アブストラクト"
-"access,"アクセス"
-"account,"アカウント"
-"action,"アクション"
-"activity,"アクティビティ"
-"actual,"アクチュアル"
-"add-in,"アドイン"
-"add-on,"アドオン"
-"address,"アドレス"
-"administrator,"アドミニストレータ"
-"algorithm,"アルゴリズム"
-"alphabet,"アルファベット"
-"amazon,"アマゾン"
-"analysis,"	アナリシス(解析)"
-"android,"アンドロイド"
-"anonymous,"アノニマス(匿名)"
-"antivirus,"アンチウイルス"
-"apple","アップル"
-"applet,"アプレット"
-"application,"アプリケーション"
-"area,"エリア"
-"array,"配列"
-"attach,"アタッチ"
-"attachment,"アタッチメント(添付ファイル)"
-"attack,"アタック(攻撃)"
-"auction,"オークション"
-"authentication,"認証"
-"auto,"オート"
-"auto complete,"オートコンプリート"
-"avatar,"アバター"
-"back,"バック"
-"background,"バックグラウンド"
-"background color,"背景色"
-"backup,"バックアップ"
-"backward,"バックワード"
-"band,"バンド"
-"bar,"バー"
-"base,"ベース"
-"benchmark,"ベンチマーク"
-"bit,"ビット"
-"blacklist,"ブラックリスト"
-"block,"ブロック"
-"blocking,"ブロッキング"
-"blog,"ブログ"
-"board,"ボード"
-"book,"ブック"
-"bookmark,"ブックマーク"
-"boot,"ブート"
-"bottom,"ボトム"
-"box,"ボックス"
-"break,"ブレーク"
-"breakpoint,"ブレークポイント"
-"bridge,"ブリッジ"
-"broad,"ブロード"
-"browser,"ブラウザ"
-"brute,"ブルート"
-"bug,"バグ"
-"build,"ビルド"
-"button,"ボタン"
-"calendar,"カレンダー"
-"cancel,"キャンセル"
-"capability,"ケイパビリティ(能力)"
-"captcha,"キャプチャ"
-"card,"カード"
-"cast,"キャスト"
-"center,"センター"
-"centimeter,"センチメートル"
-"certificate,"証明書"
-"channel,"チャンネル"
-"chat,"チャット"
-"check,"チェック"
-"checkin,"チェックイン"
-"checkout,"チェックアウト"
-"checksum,"チェックサム"
-"chrome,"クローム"
-"class,"クラス"
-"clean,"クリーン"
-"clear,"クリア"
-"click,"クリック"
-"client,"クライアント"
-"clipboard,"クリップボード"
-"cloud,"クラウド"
-"cobol,"コボル"
-"code,"コード"
-"codec,"コーデック"
-"coder,"コーダー"
-"color,"カラー(色)"
-"combo,"コンボ"
-"combobox,"コンボボックス"
-"command,"コマンド"
-"comment,"コメント"
-"commit,"コミット"
-"communication,"コミュニケーション"
-"community,"コミュニティ"
-"compile,"コンパイル"
-"complete,"コンプリート"
-"component,"コンポーネント(成分)"
-"computer,"コンピューター"
-"computing,"コンピューティング"
-"confidential,"秘密"
-"config,"コンフィグ"
-"confirm,"確認"
-"conflict,"コンフリクト"
-"connect,"コネクト"
-"connection,"コネクション"
-"console,"コンソール"
-"construct,"コンストラクト"
-"container,"コンテナ"
-"content,"コンテンツ(内容)"
-"control panel,"コントロールパネル"
-"control,"コントロール"
-"cookie,"クッキー"
-"copy,"コピー"
-"corporation,"コーポレーション"
-"cost,"コスト"
-"coupon,"クーポン"
-"cut,"カット(切り取り)"
-"cyber,"サイバー"
-"damage,"ダメージ"
-"data,"データ"
-"database,"データベース"
-"datasource,"データソース"
-"dataspace,"データスペース"
-"date,"デート"
-"datebox,"デートボックス"
-"debug,"デバッグ"
-"decode,"デコード"
-"decryption,"復号化"
-"deep,"ディープ"
-"deep learning,"ディープラーニング"
-"default,"デフォルト"
-"defrag,"デフラグ"
-"delete,"削除(デリート)"
-"deploy,"デプロイ"
-"deployment,"デプロイメント"
-"description,"ディスクリプション"
-"design,"デザイン"
-"designer,"デザイナー"
-"desktop,"デスクトップ"
-"detail,"詳細"
-"developer,"デベロッパー(開発者)"
-"development,"デベロップメント(開発)"
-"device,"デバイス"
-"diagram,"ダイアグラム"
-"dial,"ダイヤル"
-"dialog,"ダイアログ"
-"dialup,"ダイヤルアップ"
-"digit,"デジット"
-"digital,"デジタル"
-"direct,"ダイレクト(直接)"
-"directlink,"ダイレクトリンク(直リンク)"
-"directory,"ディレクトリ"
-"disconnect,"ディスコネクト(切断)"
-"disk,"ディスク"
-"display,"ディスプレイ"
-"distance,"ディスタンス(距離)"
-"distributed,"分散した"
-"document,"資料(ドキュメント)"
-"domain,"ドメイン"
-"dot,"ドット"
-"down,"ダウン"
-"download,"ダウンロード"
-"drag,"ドラッグ"
-"drive,"ドライブ"
-"driver,"ドライバ"
-"drop,"ドロップ"
-"dual,"デュアル"
-"dump,"ダンプ"
-"dynamic,"ダイナミック"
-"ebook,"電子書籍"
-"edit,"エディット"
-"edition,"エディション(版)"
-"editor,"エディタ"
-"electronic,"エレクトロニック(電子)"
-"elevator,"エレベーター"
-"empty,"エンプティー"
-"emulator,"エミュレータ"
-"encode,"エンコード"
-"engine,"エンジン"
-"engineer,"エンジニア"
-"engineering,"エンジニアリング"
-"environment,"環境"
-"error,"エラー"
-"event,"イベント"
-"example,"例"
-"excel,"エクセル"
-"exception,"例外"
-"explorer,"エクスプローラ"
-"export,"エクスポート"
-"external storage,"エクスターナルストレージ"
-"external,"エクスターナル(外部)"
-"fail,"フェール"
-"feed,"フィード"
-"feedback,"フィードバック"
-"fiber,"ファイバ"
-"file,"ファイル"
-"filename,"ファイル名"
-"firewall,"ファイアウォール"
-"fix,"フィクス(直す)"
-"flash,"フラッシュ"
-"flexible,"フレキシブル"
-"flow,"フロー"
-"focus,"フォーカス"
-"folder,"フォルダ"
-"font,"フォント"
-"footer,"フッター"
-"force,"フォース"
-"form,"フォーム(帳票)"
-"format,"フォーマット"
-"forward,"フォワード"
-"forwarding,"フォワーディング"
-"frame,"フレーム"
-"framework,"フレームワーク"
-"free,"フリー(無料)"
-"full,"フル"
-"function,"ファンクション(関数)"
-"game,"ゲーム"
-"gate,"ゲート"
-"gateway,"ゲートウェイ"
-"glass,"ガラス"
-"global,"グローバル"
-"google,"グーグル"
-"graphic,"グラフィック"
-"group,"グループ"
-"hacker,"ハッカー"
-"harddisk,"ハードディスク"
-"header,"ヘッダ"
-"help,"ヘルプ"
-"hint,"ヒント"
-"history,"履歴"
-"home,"ホーム"
-"homegroup,"ホームグループ"
-"homepage,"ホームページ"
-"host,"ホスト"
-"hosting,"ホスティング"
-"hot,"ホット"
-"icon,"アイコン"
-"image,"イメージ"
-"immediate,"イミディエイト"
-"implement,"インプリメント"
-"import,"インポート"
-"in,"イン"
-"include,"インクルード"
-"incremental,"インクリメンタル"
-"index,"インデクス"
-"infrastructure,"インフラ"
-"initialization,"初期化"
-"injection,"インジェクション"
-"input,"インプット(入力)"
-"install,"インストール"
-"integration,"インテグレーション"
-"interface,"インターフェース"
-"internal storage,"インターナルストレージ"
-"internal,"インターナル(内部)"
-"internet,"インターネット"
-"iphone,"アイフォン"
-"item,"アイテム(項目)"
-"java,"ジャバ"
-"jump,"ジャンプ"
-"key,"キー"
-"keyboard,"キーボード"
-"kilometer,"キロメートル"
-"language,"言語"
-"laptop,"ラップトップ"
-"layer,"レイヤ(層)"
-"layout,"レイアウト"
-"learning,"ラーニング"
-"left click,"左クリック"
-"left scroll,"左スクロール"
-"left side,"レフトサイド(左側)"
-"left,"レフト"
-"length,"レングス(長さ)"
-"level,"レベル"
-"library,"ライブラリー"
-"license,"ライセンス"
-"light,"ライト(光)"
-"line,"ライン"
-"link,"リンク"
-"list,"リスト"
-"load,"ロード"
-"loader,"ローダー"
-"lock,"ロック"
-"log,"ログ"
-"logic,"ロジック(論理)"
-"logic layer,"ロジックレイヤ(物理層)"
-"login,"ログイン"
-"long,"ロング(長い)"
-"lookup,"ルックアップ"
-"machine,"マシン"
-"macro,"マクロ"
-"mail,"メール"
-"main,"メイン"
-"maintenance,"メンテナンス"
-"manager,"マネージャー"
-"manual,"マニュアル"
-"map,"マップ(地図)"
-"mapping,"マッピング"
-"margin,"マージン"
-"mark,"マーク"
-"marketing,"マーケティング"
-"master,"マスター"
-"mei,"名"
-"member,"メンバー"
-"memory,"メモリー"
-"menu,"メニュー"
-"merge,"マージ(統合)"
-"message,"メッセージ(伝言)"
-"method,"メソッド(方式)"
-"middle,"ミドル"
-"millimeter,"ミリメートル"
-"mobile,"モバイル"
-"mobility,"モビリティ"
-"mode,"モード"
-"model,"モデル"
-"modify,"修正"
-"module,"モジュール"
-"monitor,"モニター"
-"mouse,"マウス"
-"movie,"ムービー"
-"music,"ミュージック"
-"my,"マイ"
-"name,"ネーム"
-"native,"ネイティブ"
-"natural,"ナチュラル"
-"navigation,"ナビゲーション"
-"negotiation,"ネゴシエーション"
-"net,"ネット"
-"network,"ネットワーク"
-"newest,"最新"
-"news,"ニュース"
-"next,"ネクスト(次)"
-"node,"ノード"
-"note,"ノート"
-"null,"ヌル"
-"number,"ナンバー"
-"object,"オブジェクト"
-"off,"オフ"
-"on,"オン"
-"on demand,"オンデマンド"
-"online,"オンライン"
-"open source,"オープンソース"
-"option,"オプション"
-"out,"アウト"
-"outline,"アウトライン"
-"output,"アウトプット(出力)"
-"over,"オーバー"
-"overload,"オーバーロード"
-"override,"オーバーライド"
-"package,"パッケージ"
-"page,"ページ"
-"panel,"パネル"
-"parameter,"パラメータ"
-"part,"パート(一部)"
-"partition,"パーティション"
-"partner,"パートナー"
-"passport,"パスポート"
-"password,"パスワード"
-"paste,"貼り付け(ペースト)"
-"path,"パス"
-"pattern,"パターン"
-"pay,"ペイ(支払う)"
-"payload,"ペイロード"
-"performance,"パフォーマンス"
-"photo,"フォト"
-"picture,"ピクチャー"
-"plan,"プラン(計画)"
-"please,"お願いします"
-"plug,"プラグ"
-"plugin,"プラグイン"
-"point,"ポイント"
-"policy,"ポリシ(政策)"
-"pool,"プール"
-"port,"ポート"
-"portal,"ポータル"
-"post office,"ポストオフィス(郵便局)"
-"post,"ポスト"
-"power,"パワー"
-"pre,"プリ"
-"prefix,"プレフィックス(接頭語)"
-"presentation layer,"プレゼンテーション層"
-"presentation,"プレゼンテーション"
-"preview,"プレビュー"
-"print,"プリント"
-"printer,"プリンタ"
-"privacy,"プライバシー"
-"private,"プライベート"
-"procedure,"プロシージャ"
-"process,"プロセス"
-"processor,"プロセッサ"
-"product,"プロダクト(製品)"
-"program,"プログラム"
-"programming,"プログラミング"
-"project,"プロジェクト"
-"projector,"プロジェクター"
-"prompt,"プロンプト"
-"property,"プロパティ"
-"protocol,"プロトコル"
-"provider,"プロバイダ"
-"proxy,"プロキシ"
-"public,"パブリック"
-"pull,"プル"
-"query,"クエリ"
-"queue,"キュー"
-"quick,"クイック"
-"ram,"ラム"
-"rate,"レート(率)"
-"rebuild,"リビルド"
-"recovery,"リカバリ"
-"register,"レジスター(登録)"
-"reload,"リロード"
-"remote,"リモート"
-"reply,"リプライ(応答)"
-"report,"レポート"
-"reset,"リセット"
-"resource,"リソース"
-"resources,"リソース"
-"restart,"リスタート(再起動)"
-"return value,"リターンバリュー(戻り値)"
-"return,"リターン(戻り)"
-"review,"レビュー"
-"right,"ライト"
-"right click,"右クリック"
-"right scroll,"右スクロール"
-"right side,"ライトサイド(右側)"
-"router,"ルータ"
-"sample,"サンプル"
-"scalability,"スケーラビリティ"
-"scan,"スキャン"
-"schedule,"スケジュール"
-"screen,"スクリーン"
-"screenshot,"スクリーンショット"
-"script,"スクリプト"
-"scroll,"スクロール"
-"security,"セキュリティ"
-"serial,"シリアル"
-"serialize,"シリアライズ"
-"server,"サーバー"
-"service,"サービス"
-"session,"セッション"
-"setting,"設定"
-"shareware,"シェアウェア"
-"shift,"シフト"
-"ship,"シップ"
-"shipping,"シッピング"
-"short,"ショート"
-"shortcut,"ショートカット"
-"shot,"ショット"
-"shoulder,"ショルダー(肩)"
-"shutdown,"シャットダウン"
-"side,"サイド(側)"
-"sign,"サイン"
-"signal,"シグナル(信号)"
-"signature,"シグネチャ(署名)"
-"single,"シングル"
-"site,"サイト"
-"sitemap,"サイトマップ"
-"size,"サイズ"
-"skill,"スキル"
-"sleep,"スリープ"
-"smart device,"スマートデバイス"
-"smart,"スマート"
-"sniffer,"スニファー"
-"snippet,"スニペット"
-"social,"ソーシャル"
-"socket,"ソケット"
-"soft,"ソフト"
-"software,"ソフトウェア"
-"solution,"ソリューション"
-"sound,"サウンド"
-"source code,"ソースコード"
-"source,"ソース"
-"space,"スペース"
-"spam,"スパム"
-"spec,"スペック"
-"speed,"スピード(速度)"
-"split,"分割"
-"spy,"スパイ"
-"spyware,"スパイウェア"
-"stack,"スタック"
-"staging,"ステージング"
-"standard,"スタンダード(標準)"
-"standby,"スタンバイ"
-"start,"スタート"
-"startup,"スタートアップ"
-"static,"スタティック(静的)"
-"status bar,"ステータスバー"
-"status,"ステータス(状態)"
-"step,"ステップ"
-"stepin,"ステップイン"
-"stepover,"ステップオーバー"
-"storage,"ストレージ"
-"stored procedure,"ストアドプロシージャ"
-"storm,"ストーム"
-"stream,"ストリーム"
-"suffix,"サフィックス(接尾語)"
-"support,"サポート"
-"surfing,"サーフィン"
-"suspend,"サスペンド"
-"swipe,"スワイプ"
-"symbol,"シンボル"
-"synchronization,"同期"
-"system,"システム"
-"tab,"タブ"
-"table,"テーブル"
-"tablet,"タブレット"
-"tag,"タグ"
-"tagging,"タギング"
-"tap,"タップ"
-"task,"タスク"
-"taskbar,"タスクバー"
-"technical,"テクニカル"
-"technique,"テクニック(技術)"
-"technology,"テクノロジー(技術)"
-"template,"テンプレート"
-"terminal,"ターミナル"
-"test,"テスト"
-"text editor,"テキストエディタ"
-"text,"テキスト"
-"textbox,"テキストボックス"
-"thread,"スレッド"
-"time,"タイム(時間)"
-"timeout,"タイムアウト"
-"tool,"ツール"
-"toolbar,"ツールバー"
-"toolbox,"ツールボックス"
-"top,"トップ"
-"touch panel,"タッチパネル"
-"touch screen,"タッチスクリーン"
-"touch,"タッチ"
-"trace,"トレース"
-"track,"トラック"
-"tracking,"トラッキング"
-"traffic,"トラフィック"
-"transaction,"トランザクション"
-"trim,"トリム"
-"trimming,"トリミング"
-"trouble,"トラブル"
-"tutorial,"チュートリアル"
-"uninstall,"アンインストール"
-"up,"アップ"
-"update,"アップデート"
-"upgrade,"アップグレード"
-"upload,"アップロード"
-"user,"ユーザー"
-"user control,"ユーザーコントロール"
-"value,"値"
-"variable,"変数"
-"vector,"ベクター"
-"vendor,"ベンダー(売手)"
-"version,"バージョン"
-"video,"ビデオ"
-"view,"ビュー"
-"virtual machine,"仮想マシン"
-"virtual,"仮想"
-"virtualization,"仮想化"
-"virus,"ウイルス"
-"volume,"ボリューム"
-"web,"ウェブ"
-"website,"ウェブサイト"
-"whilelist,"ホワイトリスト"
-"widget,"ウィジェット"
-"window,"ウィンドウ"
-"word,"ワード"
-"work,"ワーク(作業)"
-"zoom,"ズーム"
+3d printing,スリーディープリント
+ability,アビリティー(能力)
+abstract,アブストラクト
+access control,アクセス制御
+access,アクセス
+account,アカウント
+action,アクション
+activity,アクティビティ
+actual,アクチュアル
+ad blocker,広告ブロッカー
+adaptive learning,適応学習
+add-in,アドイン
+add-on,アドオン
+address bar,アドレスバー
+address,アドレス
+admin panel,管理パネル
+administrator,アドミニストレータ
+affiliate marketing,アフィリエイトマーケティング
+aggregator,アグリゲーター
+ai ethics,ai倫理
+ai,エーアイ
+ajax,エイジャックス
+alert notification,アラート通知
+algorithm,アルゴリズム
+alpha testing,アルファテスト
+alphabet,アルファベット
+amazon,アマゾン
+analysis,
+analytics dashboard,分析ダッシュボード
+android emulator,アンドロイドエミュレーター
+android,アンドロイド
+anonymity,匿名性
+anonymous,アノニマス(匿名)
+antivirus software,アンチウイルスソフトウェア
+antivirus,アンチウイルス
+apache,アパッチ
+api gateway,apiゲートウェイ
+api,エーピーアイ
+app analytics,アプリ分析
+app store,アプリストア
+apple,アップル
+applet,アプレット
+application layer,アプリケーション層
+application,アプリケーション
+architecture,アーキテクチャ
+area,エリア
+array,配列
+artifact repository,アーティファクトリポジトリ
+artifact,アーティファクト
+asp.net,エーエスピードットネット
+asset management,資産管理
+asynchronous,非同期
+attach,アタッチ
+attachment file,添付ファイル
+attachment,アタッチメント(添付ファイル)
+attachment,アタッチメント
+attack,アタック(攻撃)
+auction,オークション
+audit trail,監査証跡
+authentication,認証
+authorization,認可
+auto complete,オートコンプリート
+auto-scaling,自動スケーリング
+auto,オート
+automation,オートメーション
+availability zone,アベイラビリティゾーン
+availability,可用性
+avatar,アバター
+back,バック
+background color,背景色
+background,バックグラウンド
+backup,バックアップ
+backward,バックワード
+band,バンド
+bandwidth throttling,帯域制限
+bandwidth,バンド幅
+bar,バー
+base,ベース
+batch processing,バッチ処理
+behavioral analysis,行動分析
+benchmark,ベンチマーク
+benchmarking,ベンチマーキング
+beta testing,ベータテスト
+bi,ビーアイ
+big data,ビッグデータ
+binary code,バイナリコード
+binary search,二分探索
+bios,バイオス
+bit,ビット
+blacklist,ブラックリスト
+block storage,ブロックストレージ
+block,ブロック
+blockchain,ブロックチェーン
+blocking,ブロッキング
+blog,ブログ
+bluetooth pairing,bluetoothペアリング
+bluetooth,ブルートゥース
+board,ボード
+book,ブック
+bookmark,ブックマーク
+boot,ブート
+bootloader,ブートローダー
+bot,ボット
+botnet,ボットネット
+bottom,ボトム
+boundary testing,境界テスト
+box,ボックス
+break,ブレーク
+breakpoint,ブレークポイント
+bridge,ブリッジ
+broad,ブロード
+broadband,ブロードバンド
+broadcast,ブロードキャスト
+browser extension,ブラウザ拡張
+browser,ブラウザ
+browser,ブラウザー
+brute,ブルート
+buffer,バッファ
+bug,バグ
+build,ビルド
+burn,バーン
+bus,バス
+business continuity,事業継続
+business intelligence,ビジネスインテリジェンス
+button,ボタン
+byte,バイト
+bytecode,バイトコード
+c#,シーシャープ
+cache eviction,キャッシュ削除
+cache management,キャッシュ管理
+cache memory,キャッシュメモリ
+cache,キャッシュ
+calendar,カレンダー
+cancel,キャンセル
+capability,ケイパビリティ(能力)
+captcha,キャプチャ
+card,カード
+cascading style sheets,カスケーディングスタイルシート
+cast,キャスト
+cd-rom,シーディーロム
+cdn,シーディーエヌ
+center,センター
+centimeter,センチメートル
+certificate authority,認証局
+certificate revocation list,証明書失効リスト
+certificate,サーティフィケート
+certificate,証明書
+cgi,シージーアイ
+change log,チェンジログ
+change management,変更管理
+channel,チャンネル
+chat,チャット
+check,チェック
+checkin,チェックイン
+checkout,チェックアウト
+checksum,チェックサム
+chrome,クローム
+class,クラス
+clean,クリーン
+clear,クリア
+click,クリック
+clickstream analysis,クリックストリーム分析
+client,クライアント
+clipboard,クリップボード
+cloud computing,クラウドコンピューティング
+cloud-native,クラウドネイティブ
+cloud,クラウド
+cluster management,クラスター管理
+cluster,クラスタ
+cms,シーエムエス
+cobol,コボル
+code review,コードレビュー
+code,コード
+codebase analysis,コードベース分析
+codebase,コードベース
+codec,コーデック
+coder,コーダー
+coding standard,コーディング標準
+collaborative filtering,協調フィルタリング
+color,カラー(色)
+combo,コンボ
+combobox,コンボボックス
+command line,コマンドライン
+command,コマンド
+comment,コメント
+commit,コミット
+communication,コミュニケーション
+community,コミュニティ
+compatibility,互換性
+compile,コンパイル
+compiler,コンパイラー
+complete,コンプリート
+compliance audit,コンプライアンス監査
+compliance,コンプライアンス
+component,コンポーネント(成分)
+component,コンポーネント
+compression,コンプレッション
+compute engine,コンピュートエンジン
+computer,コンピューター
+computing,コンピューティング
+concatenation,連結
+concurrency control,同時実行制御
+concurrency,コンカレンシー
+confidential,秘密
+config,コンフィグ
+configuration file,設定ファイル
+configuration management,構成管理
+confirm,確認
+conflict,コンフリクト
+connect,コネクト
+connection,コネクション
+console,コンソール
+construct,コンストラクト
+container orchestration,コンテナオーケストレーション
+container,コンテナ
+containerization,コンテナ化
+content delivery network,コンテンツデリバリーネットワーク
+content filtering,コンテンツフィルタリング
+content management,コンテンツ管理
+content,コンテンツ(内容)
+content,コンテンツ
+context switching,コンテキストスイッチ
+continuous delivery,継続的デリバリー
+continuous deployment,継続的デプロイ
+continuous integration,継続的インテグレーション
+control flow,制御フロー
+control panel,コントロールパネル
+control,コントロール
+conversion rate,コンバージョン率
+converter,コンバーター
+cookie policy,クッキーポリシー
+cookie,クッキー
+copy,コピー
+corporation,コーポレーション
+cost,コスト
+coupon,クーポン
+cpu utilization,cpu使用率
+cpu,シーピーユー
+cross-platform,クロスプラットフォーム
+cryptocurrency,暗号通貨
+cryptographic key,暗号鍵
+css,シーエスエス
+customer relationship management,顧客関係管理
+cut,カット(切り取り)
+cyber attack,サイバー攻撃
+cyber,サイバー
+cyberbullying,サイバーいじめ
+cybersecurity,サイバーセキュリティ
+damage,ダメージ
+dashboard,ダッシュボード
+data architecture,データアーキテクチャ
+data backup,データバックアップ
+data binding,データバインディング
+data breach,データ漏洩
+data classification,データ分類
+data deduplication,データ重複排除
+data encryption,データ暗号化
+data governance,データガバナンス
+data integrity,データの完全性
+data lineage,データリネージ
+data loss prevention,データ損失防止
+data masking,データマスキング
+data migration,データ移行
+data mining,データマイニング
+data privacy,データプライバシー
+data recovery,データ復旧
+data retention,データ保持
+data science,データサイエンス
+data synchronization,データ同期
+data warehouse,データウェアハウス
+data,データ
+database administrator,データベース管理者
+database management,データベース管理
+database replication,データベースレプリケーション
+database,データベース
+datacenter management,データセンター管理
+datacenter,データセンター
+datasource,データソース
+dataspace,データスペース
+date,デート
+datebox,デートボックス
+debug console,デバッグコンソール
+debug,デバッグ
+debugger,デバッガー
+debugging tool,デバッグツール
+decode,デコード
+decryption,復号化
+dedicated server,専用サーバー
+deep learning,ディープラーニング
+deep web,ディープウェブ
+deep,ディープ
+deepfake,ディープフェイク
+default,デフォルト
+defrag,デフラグ
+delete,削除(デリート)
+denial-of-service attack,サービス拒否攻撃
+dependency injection,依存性注入
+deploy,デプロイ
+deployment model,デプロイメントモデル
+deployment pipeline,デプロイメントパイプライン
+deployment,デプロイメント
+description,ディスクリプション
+design,デザイン
+designer,デザイナー
+desktop app,デスクトップアプリ
+desktop environment,デスクトップ環境
+desktop virtualization,デスクトップ仮想化
+desktop,デスクトップ
+detail,詳細
+developer,デベロッパー(開発者)
+development,デベロップメント(開発)
+device,デバイス
+devops,デブオプス
+dhcp,ディーエイチシーピー
+diagram,ダイアグラム
+dial,ダイヤル
+dialog,ダイアログ
+dialup,ダイヤルアップ
+digit,デジット
+digital asset management,デジタル資産管理
+digital certificate,デジタル証明書
+digital forensics,デジタルフォレンジクス
+digital marketing,デジタルマーケティング
+digital rights management,デジタル著作権管理
+digital signature,デジタル署名
+digital,デジタル
+direct,ダイレクト(直接)
+directlink,ダイレクトリンク(直リンク)
+directory,ディレクトリ
+disaster recovery plan,災害復旧計画
+disaster recovery site,災害復旧サイト
+disconnect,ディスコネクト(切断)
+disk image,ディスクイメージ
+disk,ディスク
+display,ディスプレイ
+distance,ディスタンス(距離)
+distributed computing,分散コンピューティング
+distributed database,分散データベース
+distributed denial of service,分散型サービス拒否
+distributed ledger,分散型台帳
+distributed,分散した
+dns server,dnsサーバー
+dns,ディーエヌエス
+docker container,ドッカーコンテナ
+docker registry,ドッカーレジストリ
+docker,ドッカー
+document management,ドキュメント管理
+document,資料(ドキュメント)
+domain controller,ドメインコントローラー
+domain name,ドメインネーム
+domain-specific language,ドメイン特化言語
+domain,ドメイン
+dot,ドット
+down,ダウン
+download,ダウンロード
+drag,ドラッグ
+drive,ドライブ
+driver update,ドライバーアップデート
+driver,ドライバ
+driver,ドライバー
+drop,ドロップ
+dtp,ディーティーピー
+dual boot,デュアルブート
+dual,デュアル
+dump,ダンプ
+dynamic analysis,動的解析
+dynamic content,動的コンテンツ
+dynamic ip,動的ip
+dynamic,ダイナミック
+e-commerce,イーコマース
+e-learning,イーラーニング
+e-signature,電子署名
+ebook,電子書籍
+edge computing,エッジコンピューティング
+edit,エディット
+edition,エディション(版)
+editor,エディタ
+elastic compute,エラスティックコンピュート
+electronic,エレクトロニック(電子)
+elevator,エレベーター
+email client,メールクライアント
+email server,メールサーバー
+email,イーメール
+embedded system,組み込みシステム
+emergency patch,緊急パッチ
+emoji,絵文字
+empty,エンプティー
+emulator,エミュレータ
+emulator,エミュレーター
+encode,エンコード
+encryption algorithm,暗号化アルゴリズム
+encryption key,暗号化キー
+encryption,エンクリプション
+engine,エンジン
+engineer,エンジニア
+engineering,エンジニアリング
+enterprise architecture,エンタープライズアーキテクチャ
+enterprise resource planning,企業資源計画
+enterprise software,エンタープライズソフトウェア
+environment variable,環境変数
+environment,環境
+error log,エラーログ
+error,エラー
+escalation,エスカレーション
+ethernet cable,イーサネットケーブル
+ethernet,イーサネット
+event handler,イベントハンドラー
+event-driven architecture,イベント駆動アーキテクチャ
+event,イベント
+example,例
+excel,エクセル
+exception handling,例外処理
+exception log,例外ログ
+exception,例外
+execution context,実行コンテキスト
+execution time,実行時間
+expansion card,拡張カード
+exploit kit,エクスプロイトキット
+explorer,エクスプローラ
+export,エクスポート
+extensible markup language,拡張可能なマークアップ言語
+extension,エクステンション
+external dependency,外部依存関係
+external storage,エクスターナルストレージ
+external,エクスターナル(外部)
+facial recognition,顔認識
+fail,フェール
+failover,フェイルオーバー
+fallback,フォールバック
+faq,エフエーキュー
+feature branch,フィーチャーブランチ
+federated identity,連合アイデンティティ
+feed,フィード
+feedback,フィードバック
+fiber optic cable,光ファイバーケーブル
+fiber optic,ファイバーオプティック
+fiber,ファイバ
+field mapping,フィールドマッピング
+file integrity monitoring,ファイル整合性監視
+file sharing,ファイル共有
+file system,ファイルシステム
+file transfer,ファイル転送
+file,ファイル
+filename,ファイル名
+firewall configuration,ファイアウォール設定
+firewall rules,ファイアウォールルール
+firewall,ファイアウォール
+firmware update,ファームウェアアップデート
+firmware update,ファームウェア更新
+firmware,ファームウェア
+fix,フィクス(直す)
+flash memory,フラッシュメモリ
+flash storage,フラッシュストレージ
+flash,フラッシュ
+fleet management,フリート管理
+flexible,フレキシブル
+flood attack,フラッド攻撃
+floppy disk,フロッピーディスク
+flow control,フロー制御
+flow,フロー
+focus,フォーカス
+folder,フォルダ
+folder,フォルダー
+font,フォント
+footer,フッター
+force,フォース
+form,フォーム(帳票)
+format,フォーマット
+forward,フォワード
+forwarding,フォワーディング
+frame,フレーム
+framework,フレームワーク
+free,フリー(無料)
+frontend,フロントエンド
+ftp server,ftpサーバー
+ftp,エフティーピー
+full stack developer,フルスタック開発者
+full-stack development,フルスタック開発
+full,フル
+function,ファンクション(関数)
+function,ファンクション
+functional programming,関数型プログラミング
+functional requirement,機能要件
+fuzz testing,ファズテスト
+game,ゲーム
+gate,ゲート
+gateway protocol,ゲートウェイプロトコル
+gateway router,ゲートウェイルーター
+gateway,ゲートウェイ
+general availability,一般提供
+geofencing,ジオフェンシング
+gif,ジフ
+git branching,gitブランチング
+git repository,gitリポジトリ
+git,ギット
+glass,ガラス
+global load balancing,グローバルロードバランシング
+global,グローバル
+google,グーグル
+graph database,グラフデータベース
+graphic,グラフィック
+graphical interface,グラフィカルインターフェース
+graphics card,グラフィックスカード
+graphics,グラフィックス
+grid computing,グリッドコンピューティング
+group,グループ
+guest operating system,ゲストオペレーティングシステム
+gui,ジーユーアイ
+gzip compression,gzip圧縮
+hackathon,ハッカソン
+hacker,ハッカー
+hard disk,ハードディスク
+harddisk,ハードディスク
+hardware abstraction,ハードウェア抽象化
+hardware key,ハードウェアキー
+hardware virtualization,ハードウェア仮想化
+hardware,ハードウェア
+hash function,ハッシュ関数
+hash table,ハッシュテーブル
+header,ヘッダ
+health check,ヘルスチェック
+help,ヘルプ
+high availability,高可用性
+high performance computing,高性能コンピューティング
+hint,ヒント
+history,履歴
+home,ホーム
+homegroup,ホームグループ
+homepage,ホームページ
+horizontal scaling,水平スケーリング
+host machine,ホストマシン
+host,ホスト
+hosting,ホスティング
+hot,ホット
+hotfix,ホットフィックス
+http request,httpリクエスト
+http,エイチティーティーピー
+https encryption,https暗号化
+https,エイチティーティーピーエス
+hub,ハブ
+hyper-converged infrastructure,ハイパーコンバージドインフラストラクチャ
+hyperlink,ハイパーリンク
+hypervisor,ハイパーバイザー
+icon,アイコン
+ide,アイディーイー
+identity and access management,アイデンティティおよびアクセス管理
+image processing,画像処理
+image recognition,画像認識
+image,イメージ
+immediate,イミディエイト
+immutable infrastructure,不変インフラ
+implement,インプリメント
+import,インポート
+in,イン
+incident response,インシデント対応
+include,インクルード
+incremental backup,増分バックアップ
+incremental,インクリメンタル
+index,インデクス
+index,インデックス
+indexed database,インデックス付きデータベース
+information security,情報セキュリティ
+information technology,情報技術
+infrastructure as code,コードとしてのインフラ
+infrastructure monitoring,インフラ監視
+infrastructure,インフラ
+inheritance,継承
+initialization vector,初期化ベクトル
+initialization,初期化
+injection,インジェクション
+input device,入力デバイス
+input validation,入力バリデーション
+input,インプット(入力)
+input,インプット
+install,インストール
+instance type,インスタンスタイプ
+instance,インスタンス
+integrated development environment,統合開発環境
+integration,インテグレーション
+integrity check,整合性チェック
+interactive shell,インタラクティブシェル
+interface design,インターフェース設計
+interface,インターフェース
+internal storage,インターナルストレージ
+internal,インターナル(内部)
+internet,インターネット
+interpreter,インタプリタ
+intrusion detection system,侵入検知システム
+intrusion prevention system,侵入防止システム
+iot,アイオーティー
+ip address,ipアドレス
+ip address,アイピーアドレス
+ip tunneling,ipトンネリング
+iphone,アイフォン
+ipsec,アイピーセック
+ipv6,ipv6
+issue tracking,問題追跡
+it governance,itガバナンス
+item,アイテム(項目)
+iteration loop,繰り返しループ
+iteration planning,イテレーション計画
+iteration,イテレーション
+java virtual machine,java仮想マシン
+java,ジャバ
+javascript,ジャバスクリプト
+jenkins pipeline,ジェンキンズパイプライン
+jira,ジラ
+job queue,ジョブキュー
+job scheduling,ジョブスケジューリング
+joint application design,共同アプリケーション設計
+jpeg,ジェイペグ
+json file,jsonファイル
+json,ジェイソン
+jump,ジャンプ
+just-in-time compilation,ジャストインタイムコンパイル
+jvm,jvm
+kernel,カーネル
+key logger,キーロガー
+key management,キー管理
+key pair,鍵ペア
+key performance indicator,重要業績評価指標
+key,キー
+keyboard shortcut,キーボードショートカット
+keyboard,キーボード
+keystroke logging,キー入力ログ
+keyword search,キーワード検索
+keyword,キーワード
+kilometer,キロメートル
+knowledge base,ナレッジベース
+kpi,kpi
+lan cable,lanケーブル
+lan,ラン
+language,言語
+laptop,ラップトップ
+latency optimization,レイテンシ最適化
+latency,レイテンシ
+layer,レイヤ(層)
+layered architecture,レイヤードアーキテクチャ
+layout,レイアウト
+ldap authentication,ldap認証
+ldap,ldap
+learning,ラーニング
+left click,左クリック
+left scroll,左スクロール
+left side,レフトサイド(左側)
+left,レフト
+legacy application,レガシーアプリケーション
+legacy system,レガシーシステム
+length,レングス(長さ)
+level,レベル
+library,ライブラリ
+library,ライブラリー
+license,ライセンス
+light,ライト(光)
+lightweight directory access protocol,軽量ディレクトリアクセスプロトコル
+lightweight protocol,軽量プロトコル
+line,ライン
+link aggregation,リンクアグリゲーション
+link,リンク
+list,リスト
+load balancer,ロードバランサー
+load balancing algorithm,ロードバランシングアルゴリズム
+load testing,負荷テスト
+load,ロード
+loader,ローダー
+local area network,ローカルエリアネットワーク
+local storage,ローカルストレージ
+localization,ローカライズ
+lock,ロック
+log aggregation,ログ集約
+log file,ログファイル
+log rotation,ログローテーション
+log,ログ
+logic layer,ロジックレイヤ(物理層)
+logic,ロジック(論理)
+login credentials,ログイン認証情報
+login,ログイン
+logout,ログアウト
+long,ロング(長い)
+lookup,ルックアップ
+machine code,機械語
+machine learning,機械学習
+machine-to-machine communication,マシンツーマシンコミュニケーション
+machine,マシン
+macro virus,マクロウイルス
+macro,マクロ
+mail,メール
+main memory,主記憶
+main,メイン
+mainframe,メインフレーム
+maintenance,メンテナンス
+malicious software,悪意のあるソフトウェア
+malware,マルウェア
+man-in-the-middle attack,中間者攻撃
+managed services,マネージドサービス
+management console,管理コンソール
+manager,マネージャー
+manifest file,マニフェストファイル
+manual,マニュアル
+manufacturing execution system,製造実行システム
+map,マップ(地図)
+mapping,マッピング
+margin,マージン
+mark,マーク
+markdown,マークダウン
+marketing,マーケティング
+markup language,マークアップ言語
+master,マスター
+mean time between failures,平均故障間隔
+mean time to repair,平均修復時間
+media player,メディアプレイヤー
+megabyte,メガバイト
+mei,名
+member,メンバー
+memory allocation,メモリ割り当て
+memory leak,メモリリーク
+memory management,メモリ管理
+memory,メモリー
+menu,メニュー
+merge,マージ(統合)
+mesh network,メッシュネットワーク
+message,メッセージ(伝言)
+metadata,メタデータ
+method,メソッド(方式)
+microcode,マイクロコード
+microkernel,マイクロカーネル
+microservice,マイクロサービス
+middle,ミドル
+middleware service,ミドルウェアサービス
+middleware,ミドルウェア
+migration strategy,移行戦略
+migration,移行
+millimeter,ミリメートル
+mirroring,ミラーリング
+mobile app,モバイルアプリ
+mobile data,モバイルデータ
+mobile device management,モバイルデバイス管理
+mobile,モバイル
+mobility,モビリティ
+mode,モード
+model,モデル
+modem,モデム
+modify,修正
+modular architecture,モジュラーアーキテクチャ
+module,モジュール
+monitor,モニター
+monitoring tool,モニタリングツール
+motherboard,マザーボード
+mouse,マウス
+movie,ムービー
+multi-cloud strategy,マルチクラウド戦略
+multi-factor authentication,多要素認証
+multi-tenant architecture,マルチテナントアーキテクチャ
+multi-threading,マルチスレッディング
+multimedia,マルチメディア
+multitasking,マルチタスク
+music,ミュージック
+my,マイ
+name,ネーム
+namespace management,名前空間管理
+namespace,名前空間
+native app,ネイティブアプリ
+native,ネイティブ
+natural language processing,自然言語処理
+natural,ナチュラル
+navigation,ナビゲーション
+negotiation,ネゴシエーション
+net,ネット
+network adapter,ネットワークアダプタ
+network address translation,ネットワークアドレス変換
+network congestion,ネットワーク混雑
+network diagnostics,ネットワーク診断
+network interface,ネットワークインターフェース
+network intrusion detection,ネットワーク侵入検知
+network latency optimization,ネットワーク遅延最適化
+network latency,ネットワーク遅延
+network performance monitoring,ネットワークパフォーマンス監視
+network redundancy,ネットワーク冗長性
+network security,ネットワークセキュリティ
+network segmentation,ネットワークセグメンテーション
+network topology,ネットワークトポロジー
+network traffic analysis,ネットワークトラフィック分析
+network,ネットワーク
+newest,最新
+news,ニュース
+next-generation firewall,次世代ファイアウォール
+next,ネクスト(次)
+node network,ノードネットワーク
+node.js,ノードジェイエス
+node,ノード
+nosql database,nosqlデータベース
+note,ノート
+notebook,ノートブック
+ntp server,ntpサーバー
+null,ヌル
+number,ナンバー
+object storage,オブジェクトストレージ
+object-oriented design,オブジェクト指向設計
+object-oriented,オブジェクト指向
+object,オブジェクト
+observability,観測性
+ocr,オーシーアール
+off,オフ
+offline mode,オフラインモード
+offline,オフライン
+offsite backup,オフサイトバックアップ
+on demand,オンデマンド
+on,オン
+one-time pad,ワンタイムパッド
+one-time password,ワンタイムパスワード
+online,オンライン
+open api,オープンapi
+open source software,オープンソースソフトウェア
+open source,オープンソース
+open standards,オープン標準
+operating system,オペレーティングシステム
+operational analytics,運用分析
+operational technology,運用技術
+optical drive,オプティカルドライブ
+optimization,最適化
+option,オプション
+orchestration tool,オーケストレーションツール
+out,アウト
+outline,アウトライン
+output buffering,出力バッファリング
+output device,出力デバイス
+output,アウトプット(出力)
+output,アウトプット
+over,オーバー
+overload,オーバーロード
+override,オーバーライド
+package,パッケージ
+packet analyzer,パケットアナライザー
+packet filtering,パケットフィルタリング
+packet switching,パケット交換
+packet,パケット
+page,ページ
+panel,パネル
+parallel computing,並列計算
+parallel processing,パラレル処理
+parameter,パラメータ
+parameter,パラメーター
+parsing,パース
+part,パート(一部)
+partition,パーティション
+partitioning,パーティショニング
+partner,パートナー
+passport,パスポート
+password manager,パスワードマネージャー
+password policy,パスワードポリシー
+password,パスワード
+paste,貼り付け(ペースト)
+patch management strategy,パッチ管理戦略
+patch management,パッチ管理
+patch,パッチ
+path,パス
+pattern,パターン
+pay,ペイ(支払う)
+payload,ペイロード
+peer-to-peer network,ピアツーピアネットワーク
+peer-to-peer,ピアツーピア
+penetration testing,ペネトレーションテスト
+pentesting,ペンテスティング
+performance benchmark,パフォーマンスベンチマーク
+performance monitoring,パフォーマンス監視
+performance tuning,パフォーマンスチューニング
+performance,パフォーマンス
+persistent connection,持続的接続
+persistent storage,永続ストレージ
+phishing attack,フィッシング攻撃
+phishing protection,フィッシング保護
+phishing scam,フィッシング詐欺
+phishing,フィッシング
+photo,フォト
+physical security,物理的セキュリティ
+picture,ピクチャー
+ping,ピング
+pivot table,ピボットテーブル
+pixel,ピクセル
+plaintext,平文
+plan,プラン(計画)
+platform as a service,プラットフォーム・アズ・ア・サービス
+platform,プラットフォーム
+please,お願いします
+plug-and-play,プラグアンドプレイ
+plug-in,プラグイン
+plug,プラグ
+plugin,プラグイン
+point of presence,ポイントオブプレゼンス
+point,ポイント
+policy enforcement,ポリシー実施
+policy management,ポリシー管理
+policy,ポリシ(政策)
+pool,プール
+pop3,ポップスリー
+port forwarding,ポートフォワーディング
+port mirroring,ポートミラーリング
+port scanning,ポートスキャン
+port,ポート
+portal,ポータル
+post office,ポストオフィス(郵便局)
+post-mortem,ポストモーテム
+post,ポスト
+power,パワー
+pre,プリ
+predictive analytics,予測分析
+prefix,プレフィックス(接頭語)
+presentation layer,プレゼンテーション層
+presentation,プレゼンテーション
+preview,プレビュー
+primary key,プライマリキー
+print,プリント
+printer,プリンタ
+privacy,プライバシー
+private,プライベート
+privilege escalation,権限昇格
+proactive monitoring,プロアクティブ監視
+procedure,プロシージャ
+process automation,プロセス自動化
+process isolation,プロセス分離
+process,プロセス
+processor,プロセッサ
+product,プロダクト(製品)
+production environment,本番環境
+program counter,プログラムカウンター
+program,プログラム
+programming,プログラミング
+progressive web app,プログレッシブウェブアプリ
+project lifecycle,プロジェクトライフサイクル
+project,プロジェクト
+projector,プロジェクター
+prompt,プロンプト
+property,プロパティ
+protocol analyzer,プロトコルアナライザー
+protocol stack,プロトコルスタック
+protocol,プロトコル
+provider,プロバイダ
+provisioning tool,プロビジョニングツール
+proxy server,プロキシサーバー
+proxy,プロキシ
+public cloud,パブリッククラウド
+public key infrastructure,公開鍵基盤
+public key,公開鍵
+public,パブリック
+pull,プル
+python,パイソン
+qr code,キューアールコード
+quality assurance,品質保証
+query language,クエリ言語
+query optimizer,クエリオプティマイザー
+query,クエリ
+queue management,キュー管理
+queue,キュー
+quick access,クイックアクセス
+quick response code,クイックレスポンスコード
+quick,クイック
+quorum,クォーラム
+rack server,ラックサーバー
+radio frequency identification,無線周波数識別
+raid controller,raidコントローラー
+raid,レイド
+ram,ラム
+random access,ランダムアクセス
+random number generator,乱数生成器
+ransomware,ランサムウェア
+rate,レート(率)
+read-only memory,リードオンリーメモリ
+real-time analytics,リアルタイム分析
+real-time operating system,リアルタイムオペレーティングシステム
+real-time,リアルタイム
+reboot,リブート
+reboot,再起動
+rebuild,リビルド
+recovery,リカバリ
+recursion depth,再帰の深さ
+recursion,再帰
+redundancy,冗長性
+redundant array,冗長配列
+redundant system,冗長システム
+refactoring,リファクタリング
+reference architecture,リファレンスアーキテクチャ
+register,レジスター(登録)
+regression analysis,回帰分析
+regression testing,回帰テスト
+relational database,リレーショナルデータベース
+release management,リリース管理
+reload,リロード
+remote access,リモートアクセス
+remote desktop,リモートデスクトップ
+remote procedure call,リモートプロシージャコール
+remote sensing,リモートセンシング
+remote support,リモートサポート
+remote,リモート
+replication factor,レプリケーションファクター
+reply,リプライ(応答)
+report,レポート
+repository,リポジトリ
+reputation management,レピュテーション管理
+request for proposal,提案依頼書
+reset,リセット
+resilience testing,レジリエンステスト
+resolution,解像度
+resource allocation,リソース割り当て
+resource management,リソース管理
+resource,リソース
+resources,リソース
+responsive design,レスポンシブデザイン
+rest api,rest api
+rest api,レストエーピーアイ
+restart,リスタート(再起動)
+restore point,リストアポイント
+restore,リストア
+return value,リターンバリュー(戻り値)
+return,リターン(戻り)
+reverse engineering,リバースエンジニアリング
+review,レビュー
+rich text format,リッチテキストフォーマット
+right click,右クリック
+right scroll,右スクロール
+right side,ライトサイド(右側)
+right,ライト
+risk assessment,リスク評価
+root access,ルートアクセス
+root cause analysis,ルートコーズ分析
+root directory,ルートディレクトリ
+router configuration,ルーター設定
+router,ルータ
+router,ルーター
+routing protocol,ルーティングプロトコル
+rsa encryption,rsa暗号化
+rule-based system,ルールベースシステム
+runtime environment,ランタイム環境
+runtime error,ランタイムエラー
+runtime,ランタイム
+saas provider,saasプロバイダー
+sample,サンプル
+sandbox environment,サンドボックス環境
+sandbox,サンドボックス
+scalability testing,スケーラビリティテスト
+scalability,スケーラビリティ
+scan,スキャン
+schedule,スケジュール
+schema validation,スキーマ検証
+schema,スキーマ
+screen scraping,スクリーンスクレイピング
+screen sharing,スクリーン共有
+screen,スクリーン
+screenshot,スクリーンショット
+script language,スクリプト言語
+script,スクリプト
+scripting language,スクリプト言語
+scroll,スクロール
+sdk,エスディーケー
+sdlc phases,sdlcフェーズ
+search engine optimization,検索エンジン最適化
+search engine,検索エンジン
+secure access,セキュアアクセス
+secure boot,セキュアブート
+secure channel,セキュアチャンネル
+secure shell,セキュアシェル
+secure socket layer,セキュアソケットレイヤー
+security breach,セキュリティ侵害
+security certificate,セキュリティ証明書
+security incident response,セキュリティインシデント対応
+security patch,セキュリティパッチ
+security policy,セキュリティポリシー
+security token,セキュリティトークン
+security,セキュリティ
+segmentation fault,セグメンテーション違反
+self-healing system,セルフヒーリングシステム
+self-service portal,セルフサービスポータル
+serial,シリアル
+serialize,シリアライズ
+server blade,サーバーブレード
+server cluster,サーバークラスター
+server rack,サーバーラック
+server,サーバー
+serverless computing,サーバーレスコンピューティング
+service desk,サービスデスク
+service discovery,サービスディスカバリー
+service level agreement,サービスレベル合意
+service level agreement,サービスレベル契約
+service pack,サービスパック
+service-oriented architecture,サービス指向アーキテクチャ
+service,サービス
+session hijacking,セッションハイジャック
+session management,セッション管理
+session,セッション
+setting,設定
+shareware,シェアウェア
+shell script,シェルスクリプト
+shell scripting,シェルスクリプト
+shell,シェル
+shift,シフト
+ship,シップ
+shipping,シッピング
+short,ショート
+shortcut,ショートカット
+shot,ショット
+shoulder,ショルダー(肩)
+shutdown,シャットダウン
+side channel attack,サイドチャネル攻撃
+side,サイド(側)
+sign,サイン
+signal,シグナル(信号)
+signature file,シグネチャファイル
+signature-based detection,署名ベースの検出
+signature,シグネチャ(署名)
+sim card,simカード
+single sign-on,シングルサインオン
+single,シングル
+site reliability engineering,サイト信頼性エンジニアリング
+site,サイト
+sitemap,サイトマップ
+size,サイズ
+skill,スキル
+sla management,sla管理
+sleep,スリープ
+smart card,スマートカード
+smart device,スマートデバイス
+smart,スマート
+smtp server,smtpサーバー
+smtp,エスエムティーピー
+snapshot backup,スナップショットバックアップ
+snapshot,スナップショット
+sniffer,スニファー
+snippet,スニペット
+social engineering,ソーシャルエンジニアリング
+social,ソーシャル
+socket,ソケット
+soft,ソフト
+software architecture,ソフトウェアアーキテクチャ
+software as a service,ソフトウェア・アズ・ア・サービス
+software deployment,ソフトウェアデプロイメント
+software development lifecycle,ソフトウェア開発ライフサイクル
+software patch,ソフトウェアパッチ
+software repository,ソフトウェアリポジトリ
+software stack,ソフトウェアスタック
+software update,ソフトウェアアップデート
+software-defined network,ソフトウェア定義ネットワーク
+software,ソフトウェア
+solid-state drive,ソリッドステートドライブ
+solution,ソリューション
+sound,サウンド
+source code management,ソースコード管理
+source code,ソースコード
+source control,ソースコントロール
+source,ソース
+space,スペース
+spam detection,スパム検出
+spam filter,スパムフィルター
+spam,スパム
+spatial data,空間データ
+spear phishing,スピアフィッシング
+spec,スペック
+speed,スピード(速度)
+split,分割
+spreadsheet,スプレッドシート
+sprint planning,スプリントプランニング
+spy,スパイ
+spyware,スパイウェア
+sql injection,sqlインジェクション
+sql,エスキューエル
+ssh tunneling,sshトンネリング
+ssh,エスエスエイチ
+ssl certificate,ssl証明書
+ssl,エスエスエル
+sso,sso
+stack,スタック
+staging environment,ステージング環境
+staging,ステージング
+standalone application,スタンドアロンアプリケーション
+standard,スタンダード(標準)
+standby mode,スタンバイモード
+standby,スタンバイ
+start,スタート
+startup,スタートアップ
+stateful firewall,ステートフルファイアウォール
+stateless protocol,ステートレスプロトコル
+static analysis,静的解析
+static,スタティック(静的)
+status bar,ステータスバー
+status,ステータス(状態)
+step,ステップ
+stepin,ステップイン
+stepover,ステップオーバー
+storage area network,ストレージエリアネットワーク
+storage device,ストレージデバイス
+storage,ストレージ
+stored procedure,ストアドプロシージャ
+storm,ストーム
+stream,ストリーム
+streaming data,ストリーミングデータ
+structured query language,sql
+subnet mask,サブネットマスク
+subnet,サブネット
+suffix,サフィックス(接尾語)
+superuser,スーパーユーザー
+supply chain management,サプライチェーン管理
+support ticket,サポートチケット
+support,サポート
+surfing,サーフィン
+suspend,サスペンド
+swapping,スワッピング
+swarm intelligence,スウォームインテリジェンス
+swipe,スワイプ
+switch,スイッチ
+symbol,シンボル
+symmetric encryption,対称暗号
+synchronization,同期
+syntax,シンタックス
+system administrator,システム管理者
+system architecture,システムアーキテクチャ
+system backup,システムバックアップ
+system call trace,システムコールトレース
+system call,システムコール
+system integration,システム統合
+system log,システムログ
+system resource,システムリソース
+system restore,システムリストア
+system update,システム更新
+system verification,システム検証
+system,システム
+tab,タブ
+table partitioning,テーブルパーティショニング
+table schema,テーブルスキーマ
+table,テーブル
+tablet,タブレット
+tag,タグ
+tagging,タギング
+tap,タップ
+task automation,タスク自動化
+task manager,タスクマネージャー
+task,タスク
+taskbar,タスクバー
+tcp/ip stack,tcp/ipスタック
+tcp/ip,ティーシーピーアイピー
+technical debt,テクニカルデット
+technical debt,技術的負債
+technical,テクニカル
+technique,テクニック(技術)
+technology,テクノロジー(技術)
+teleconferencing,テレコンファレンス
+telemetry data,テレメトリーデータ
+template engine,テンプレートエンジン
+template,テンプレート
+terminal emulator,ターミナルエミュレータ
+terminal,ターミナル
+test automation,テスト自動化
+test coverage,テストカバレッジ
+test environment,テスト環境
+test suite,テストスイート
+test,テスト
+text editor,テキストエディタ
+text,テキスト
+textbox,テキストボックス
+thin client,シンクライアント
+thread pool,スレッドプール
+thread,スレッド
+threat detection,脅威検出
+throughput,スループット
+time series data,時系列データ
+time to live,タイムトゥリブ
+time,タイム(時間)
+timeout,タイムアウト
+token authentication,トークン認証
+token ring,トークンリング
+token,トークン
+tokenization,トークン化
+tool,ツール
+toolbar,ツールバー
+toolbox,ツールボックス
+toolkit,ツールキット
+top,トップ
+topology diagram,トポロジーダイアグラム
+touch panel,タッチパネル
+touch screen,タッチスクリーン
+touch,タッチ
+trace route,トレースルート
+trace,トレース
+track,トラック
+tracking,トラッキング
+traffic analysis,トラフィック分析
+traffic shaping,トラフィックシェイピング
+traffic,トラフィック
+transaction log,トランザクションログ
+transaction processing,トランザクション処理
+transaction,トランザクション
+transcoder,トランスコーダー
+transient fault,一時的な障害
+transmission control protocol,トランスミッションコントロールプロトコル
+transmission,トランスミッション
+transport layer security,トランスポート層セキュリティ
+tree data structure,木構造データ
+trim,トリム
+trimming,トリミング
+trojan horse,トロイの木馬
+trouble,トラブル
+tutorial,チュートリアル
+two-factor authentication,二要素認証
+uat environment,ユーエーティー環境
+uat,ユーエーティー
+ubuntu,ウブントゥ
+uml diagram,uml図
+unified modeling language,統一モデリング言語
+uninstall,アンインストール
+unit of work,ユニットオブワーク
+unit test,ユニットテスト
+universal serial bus,ユニバーサルシリアルバス
+unstructured data,非構造化データ
+up,アップ
+update,アップデート
+update,更新
+upgrade,アップグレード
+upload speed,アップロード速度
+upload,アップロード
+uptime,稼働時間
+uri,ユーアールアイ
+url,ユーアールエル
+usage statistics,使用統計
+usb,ユーエスビー
+user acceptance testing,ユーザー受け入れテスト
+user access control,ユーザーアクセス制御
+user agent,ユーザーエージェント
+user authentication,ユーザー認証
+user control,ユーザーコントロール
+user experience,ユーザーエクスペリエンス
+user interface design,ユーザーインターフェースデザイン
+user interface,ユーザーインターフェース
+user permissions,ユーザー権限
+user profile,ユーザープロファイル
+user provisioning,ユーザー提供
+user session,ユーザーセッション
+user,ユーザー
+username,ユーザーネーム
+utility computing,ユーティリティコンピューティング
+utility program,ユーティリティプログラム
+utility,ユーティリティ
+uuid,ユーウーアイディー
+validation rule,バリデーションルール
+validation,バリデーション
+value,値
+variable,変数
+vector,ベクター
+vendor,ベンダー(売手)
+version control system,バージョン管理システム
+version control,バージョン管理
+version history,バージョン履歴
+version,バージョン
+versioning,バージョニング
+video,ビデオ
+view,ビュー
+virtual assistant,バーチャルアシスタント
+virtual desktop,仮想デスクトップ
+virtual machine,仮想マシン
+virtual memory,仮想メモリ
+virtual network,仮想ネットワーク
+virtual private cloud,仮想プライベートクラウド
+virtual private network,仮想プライベートネットワーク
+virtual reality,バーチャルリアリティ
+virtual reality,仮想現実
+virtual,バーチャル
+virtual,仮想
+virtualization platform,仮想化プラットフォーム
+virtualization,仮想化
+virus definition,ウイルス定義
+virus scan,ウイルススキャン
+virus,ウイルス
+vmware,ブイエムウェア
+voice over ip,ボイスオーバーアイピー
+voice recognition,音声認識
+volume,ボリューム
+vpn client,vpnクライアント
+vpn,ブイピーエヌ
+vr headset,ブイアールヘッドセット
+vulnerability assessment,脆弱性評価
+vulnerability management,脆弱性管理
+wan,ワン
+web analytics,ウェブ分析
+web application firewall,ウェブアプリケーションファイアウォール
+web application,ウェブアプリケーション
+web browser,ウェブブラウザー
+web content management,ウェブコンテンツ管理
+web crawler,ウェブクローラー
+web development framework,ウェブ開発フレームワーク
+web development,ウェブ開発
+web hosting provider,ウェブホスティングプロバイダー
+web hosting service,ウェブホスティングサービス
+web hosting,ウェブホスティング
+web scraping,ウェブスクレイピング
+web server logs,ウェブサーバーログ
+web server,ウェブサーバー
+web standards,ウェブ標準
+web traffic,ウェブトラフィック
+web,ウェブ
+webcam,ウェブカメラ
+webinar,ウェビナー
+website design,ウェブサイトデザイン
+website,ウェブサイト
+whilelist,ホワイトリスト
+wi-fi hotspot,ワイファイホットスポット
+wi-fi,ワイファイ
+widget toolkit,ウィジェットツールキット
+widget,ウィジェット
+wildcard certificate,ワイルドカード証明書
+window,ウィンドウ
+wireless access point,ワイヤレスアクセスポイント
+wireless adapter,ワイヤレスアダプター
+wireless communication,ワイヤレス通信
+wireless network,ワイヤレスネットワーク
+wireless,ワイヤレス
+word,ワード
+work,ワーク(作業)
+workflow automation,ワークフロー自動化
+workflow management,ワークフロー管理
+workflow,ワークフロー
+www,ダブリューダブリューダブリュー
+xml parser,エックスエムエルパーサー
+xml,エックスエムエル
+yaml,ヤムル
+zero-day exploit,ゼロデイエクスプロイト
+zero-day vulnerability,ゼロデイ脆弱性
+zipped file,ジップファイル
+zone file,ゾーンファイル
+zone transfer,ゾーン転送
+zoom,ズーム
