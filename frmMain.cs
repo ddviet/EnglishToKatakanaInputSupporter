@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Net;
 using System.Net.Http;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
@@ -17,10 +16,10 @@ namespace EnglishToKatakanaInputSupporter
         private static extern bool UnregisterHotKey(IntPtr hWnd, int id);
 
         [DllImport("user32.dll", SetLastError = true)]
-        static extern IntPtr GetForegroundWindow();
+        private static extern IntPtr GetForegroundWindow();
 
         [DllImport("user32.dll", SetLastError = true)]
-        static extern bool SetForegroundWindow(IntPtr hWnd);
+        private static extern bool SetForegroundWindow(IntPtr hWnd);
 
         private const int HOTKEY_ID = 1;
         private const uint MOD_CONTROL = 0x0002;
@@ -132,7 +131,7 @@ namespace EnglishToKatakanaInputSupporter
         {
             this.Show();
             this.Activate();
-            txtInput.Text = "";
+            txtInput.Text = Clipboard.GetText();
             txtInput.Focus();
         }
 
@@ -179,6 +178,10 @@ namespace EnglishToKatakanaInputSupporter
             else if (e.KeyCode == Keys.Escape)
             {
                 this.Hide();
+            }
+            else if (e.Control && e.KeyCode == Keys.C)
+            {
+                Clipboard.SetText(lblResult.Text);
             }
         }
 
