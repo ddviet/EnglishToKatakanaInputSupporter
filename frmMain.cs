@@ -142,7 +142,7 @@ namespace EnglishToKatakanaInputSupporter
         /// <param name="e"></param>
         private void txtInput_TextChanged(object sender, EventArgs e)
         {
-            string input = txtInput.Text.ToLower();
+            string input = txtInput.Text.Trim().ToLower();
             if (katakanaDictionary.TryGetValue(input, out string katakana))
             {
                 lblResult.Text = katakana;
@@ -164,6 +164,8 @@ namespace EnglishToKatakanaInputSupporter
             {
                 if (!string.IsNullOrEmpty(lblResult.Text))
                 {
+                    Clipboard.SetText(lblResult.Text);
+
                     this.Hide();
                     SetForegroundWindow(previousWindow);
                     SendKeys.SendWait(lblResult.Text);
@@ -181,7 +183,10 @@ namespace EnglishToKatakanaInputSupporter
             }
             else if (e.Control && e.KeyCode == Keys.C)
             {
-                Clipboard.SetText(lblResult.Text);
+                if (!string.IsNullOrEmpty(lblResult.Text))
+                {
+                    Clipboard.SetText(lblResult.Text);
+                }
             }
         }
 

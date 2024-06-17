@@ -38,17 +38,18 @@
             this.txtInput.Location = new System.Drawing.Point(12, 12);
             this.txtInput.Multiline = true;
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(160, 69);
+            this.txtInput.Size = new System.Drawing.Size(214, 69);
             this.txtInput.TabIndex = 0;
             this.txtInput.TextChanged += new System.EventHandler(this.txtInput_TextChanged);
             this.txtInput.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtInput_KeyDown);
             // 
             // lblResult
             // 
+            this.lblResult.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResult.Location = new System.Drawing.Point(189, 15);
+            this.lblResult.Location = new System.Drawing.Point(240, 13);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(160, 69);
+            this.lblResult.Size = new System.Drawing.Size(205, 69);
             this.lblResult.TabIndex = 1;
             this.lblResult.Text = "Result";
             // 
@@ -56,7 +57,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(348, 93);
+            this.ClientSize = new System.Drawing.Size(444, 93);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.txtInput);
             this.MaximizeBox = false;
