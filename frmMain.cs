@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 using System.Runtime.InteropServices;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text;
 
 namespace EnglishToKatakanaInputSupporter
 {
@@ -14,12 +14,12 @@ namespace EnglishToKatakanaInputSupporter
         private static extern bool RegisterHotKey(IntPtr hWnd, int id, uint fsModifiers, uint vk);
         [DllImport("user32.dll")]
         private static extern bool UnregisterHotKey(IntPtr hWnd, int id);
-
         [DllImport("user32.dll", SetLastError = true)]
         private static extern IntPtr GetForegroundWindow();
-
         [DllImport("user32.dll", SetLastError = true)]
         private static extern bool SetForegroundWindow(IntPtr hWnd);
+        [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
+        private static extern int GetWindowText(IntPtr hWnd, StringBuilder lpString, int nMaxCount);
 
         private const int HOTKEY_ID = 1;
         private const uint MOD_CONTROL = 0x0002;
@@ -27,7 +27,7 @@ namespace EnglishToKatakanaInputSupporter
 
         private Dictionary<string, string> katakanaDictionary = new Dictionary<string, string>();
         private string dictionaryFilePath = "EnglishKatakanaDictionary.csv"; // Local file path
-        private IntPtr previousWindow;
+        private IntPtr hWnd;
 
         /// <summary>
         /// 
@@ -37,7 +37,7 @@ namespace EnglishToKatakanaInputSupporter
             InitializeComponent();
             RegisterHotKey(this.Handle, HOTKEY_ID, MOD_CONTROL, VK_K);
             LoadDictionaryFromFile(); // Load dictionary from file on startup
-            Task.Run(() => DownloadDictionaryFile()); // Run download task in background
+            System.Threading.Tasks.Task.Run(() => DownloadDictionaryFile()); // Run download task in background
         }
 
         /// <summary>
@@ -60,7 +60,7 @@ namespace EnglishToKatakanaInputSupporter
         /// 
         /// </summary>
         /// <returns></returns>
-        private async Task DownloadDictionaryFile()
+        private async System.Threading.Tasks.Task DownloadDictionaryFile()
         {
             string url = "https://raw.githubusercontent.com/ddviet/EnglishToKatakanaInputSupporter/master/EnglishKatakanaDictionary.csv";
             try
@@ -82,7 +82,7 @@ namespace EnglishToKatakanaInputSupporter
                     }
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 MessageBox.Show("Error downloading the Katakana dictionary: " + ex.Message);
             }
@@ -118,7 +118,27 @@ namespace EnglishToKatakanaInputSupporter
             const int WM_HOTKEY = 0x0312;
             if (m.Msg == WM_HOTKEY && m.WParam.ToInt32() == HOTKEY_ID)
             {
-                previousWindow = GetForegroundWindow();
+                hWnd = GetForegroundWindow();
+
+                string windowTitle = GetWindowTitle(hWnd);
+
+                if (windowTitle.Contains("Word"))
+                {
+                    GetSelectedTextFromWord();
+                }
+                else if (windowTitle.Contains("Excel"))
+                {
+                    GetSelectedTextFromExcel();
+                }
+                else if (windowTitle.Contains("PowerPoint"))
+                {
+                    GetSelectedTextFromPowerPoint();
+                }
+                else
+                {
+                    Console.WriteLine("Active window is neither Word, Excel, Outlook, nor PowerPoint.");
+                }
+
                 ShowPopup();
             }
             base.WndProc(ref m);
@@ -167,7 +187,7 @@ namespace EnglishToKatakanaInputSupporter
                     Clipboard.SetText(lblResult.Text);
 
                     this.Hide();
-                    SetForegroundWindow(previousWindow);
+                    SetForegroundWindow(hWnd);
                     SendKeys.SendWait(lblResult.Text);
                 }
                 else
@@ -187,6 +207,96 @@ namespace EnglishToKatakanaInputSupporter
                 {
                     Clipboard.SetText(lblResult.Text);
                 }
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="hWnd"></param>
+        /// <returns></returns>
+        private string GetWindowTitle(IntPtr hWnd)
+        {
+            StringBuilder sb = new StringBuilder(256);
+            if (GetWindowText(hWnd, sb, sb.Capacity) > 0)
+            {
+                return sb.ToString();
+            }
+            return string.Empty;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private void GetSelectedTextFromWord()
+        {
+            try
+            {
+                Microsoft.Office.Interop.Word.Application wordApp = (Microsoft.Office.Interop.Word.Application)Marshal.GetActiveObject("Word.Application");
+                Microsoft.Office.Interop.Word.Selection selection = wordApp.Selection;
+                string selectedText = selection.Text;
+
+                if (!string.IsNullOrEmpty(selectedText))
+                {
+                    Clipboard.SetText(selectedText);
+                }
+
+                Marshal.ReleaseComObject(wordApp);
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("Word application is not running.");
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private void GetSelectedTextFromExcel()
+        {
+            try
+            {
+                Microsoft.Office.Interop.Excel.Application excelApp = (Microsoft.Office.Interop.Excel.Application)Marshal.GetActiveObject("Excel.Application");
+                Microsoft.Office.Interop.Excel.Range selection = excelApp.Selection;
+                string selectedText = selection.Text;
+
+                if (!string.IsNullOrEmpty(selectedText))
+                {
+                    Clipboard.SetText(selectedText);
+                }
+
+                Marshal.ReleaseComObject(excelApp);
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("Excel application is not running.");
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private void GetSelectedTextFromPowerPoint()
+        {
+            try
+            {
+                Microsoft.Office.Interop.PowerPoint.Application powerPointApp = (Microsoft.Office.Interop.PowerPoint.Application)Marshal.GetActiveObject("PowerPoint.Application");
+                Microsoft.Office.Interop.PowerPoint.DocumentWindow activeWindow = powerPointApp.ActiveWindow;
+                if (activeWindow.Selection.Type == Microsoft.Office.Interop.PowerPoint.PpSelectionType.ppSelectionText)
+                {
+                    string selectedText = activeWindow.Selection.TextRange.Text;
+
+                    if (!string.IsNullOrEmpty(selectedText))
+                    {
+                        Clipboard.SetText(selectedText);
+                    }
+                }
+                Marshal.ReleaseComObject(activeWindow);
+                Marshal.ReleaseComObject(powerPointApp);
+            }
+            catch (COMException)
+            {
+                Console.WriteLine("PowerPoint application is not running.");
             }
         }
 

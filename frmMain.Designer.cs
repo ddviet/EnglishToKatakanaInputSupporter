@@ -60,6 +60,7 @@
             this.ClientSize = new System.Drawing.Size(444, 93);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.txtInput);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
