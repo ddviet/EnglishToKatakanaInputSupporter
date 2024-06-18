@@ -53,7 +53,6 @@ asynchronous,非同期
 attach,アタッチ
 attachment file,添付ファイル
 attachment,アタッチメント(添付ファイル)
-attachment,アタッチメント
 attack,アタック(攻撃)
 auction,オークション
 audit trail,監査証跡
@@ -113,7 +112,6 @@ broadband,ブロードバンド
 broadcast,ブロードキャスト
 browser extension,ブラウザ拡張
 browser,ブラウザ
-browser,ブラウザー
 brute,ブルート
 buffer,バッファ
 bug,バグ
@@ -192,7 +190,6 @@ compiler,コンパイラー
 complete,コンプリート
 compliance audit,コンプライアンス監査
 compliance,コンプライアンス
-component,コンポーネント(成分)
 component,コンポーネント
 compression,コンプレッション
 compute engine,コンピュートエンジン
@@ -218,10 +215,9 @@ content delivery network,コンテンツデリバリーネットワーク
 content filtering,コンテンツフィルタリング
 content management,コンテンツ管理
 content,コンテンツ(内容)
-content,コンテンツ
 context switching,コンテキストスイッチ
 continuous delivery,継続的デリバリー
-continuous deployment,継続的デプロイ
+continuous deployment,継続的デプロイメント
 continuous integration,継続的インテグレーション
 control flow,制御フロー
 control panel,コントロールパネル
@@ -279,6 +275,7 @@ datasource,データソース
 dataspace,データスペース
 date,デート
 datebox,デートボックス
+deadlock,デッドロック
 debug console,デバッグコンソール
 debug,デバッグ
 debugger,デバッガー
@@ -357,7 +354,6 @@ drag,ドラッグ
 drive,ドライブ
 driver update,ドライバーアップデート
 driver,ドライバ
-driver,ドライバー
 drop,ドロップ
 dtp,ディーティーピー
 dual boot,デュアルブート
@@ -386,7 +382,6 @@ emergency patch,緊急パッチ
 emoji,絵文字
 empty,エンプティー
 emulator,エミュレータ
-emulator,エミュレーター
 encode,エンコード
 encryption algorithm,暗号化アルゴリズム
 encryption key,暗号化キー
@@ -460,7 +455,7 @@ flow control,フロー制御
 flow,フロー
 focus,フォーカス
 folder,フォルダ
-folder,フォルダー
+follow,フォロー
 font,フォント
 footer,フッター
 force,フォース
@@ -478,7 +473,6 @@ full stack developer,フルスタック開発者
 full-stack development,フルスタック開発
 full,フル
 function,ファンクション(関数)
-function,ファンクション
 functional programming,関数型プログラミング
 functional requirement,機能要件
 fuzz testing,ファズテスト
@@ -509,7 +503,6 @@ gui,ジーユーアイ
 gzip compression,gzip圧縮
 hackathon,ハッカソン
 hacker,ハッカー
-hard disk,ハードディスク
 harddisk,ハードディスク
 hardware abstraction,ハードウェア抽象化
 hardware key,ハードウェアキー
@@ -519,6 +512,7 @@ hash function,ハッシュ関数
 hash table,ハッシュテーブル
 header,ヘッダ
 health check,ヘルスチェック
+heap,ヒープ
 help,ヘルプ
 high availability,高可用性
 high performance computing,高性能コンピューティング
@@ -571,7 +565,6 @@ injection,インジェクション
 input device,入力デバイス
 input validation,入力バリデーション
 input,インプット(入力)
-input,インプット
 install,インストール
 instance type,インスタンスタイプ
 instance,インスタンス
@@ -588,7 +581,6 @@ interpreter,インタプリタ
 intrusion detection system,侵入検知システム
 intrusion prevention system,侵入防止システム
 iot,アイオーティー
-ip address,ipアドレス
 ip address,アイピーアドレス
 ip tunneling,ipトンネリング
 iphone,アイフォン
@@ -649,7 +641,6 @@ legacy system,レガシーシステム
 length,レングス(長さ)
 level,レベル
 library,ライブラリ
-library,ライブラリー
 license,ライセンス
 light,ライト(光)
 lightweight directory access protocol,軽量ディレクトリアクセスプロトコル
@@ -825,8 +816,8 @@ outline,アウトライン
 output buffering,出力バッファリング
 output device,出力デバイス
 output,アウトプット(出力)
-output,アウトプット
 over,オーバー
+overflow,オーバーフロー
 overload,オーバーロード
 override,オーバーライド
 package,パッケージ
@@ -839,7 +830,6 @@ panel,パネル
 parallel computing,並列計算
 parallel processing,パラレル処理
 parameter,パラメータ
-parameter,パラメーター
 parsing,パース
 part,パート(一部)
 partition,パーティション
@@ -912,6 +902,7 @@ primary key,プライマリキー
 print,プリント
 printer,プリンタ
 privacy,プライバシー
+private key,秘密鍵
 private,プライベート
 privilege escalation,権限昇格
 proactive monitoring,プロアクティブ監視
@@ -1020,6 +1011,7 @@ right scroll,右スクロール
 right side,ライトサイド(右側)
 right,ライト
 risk assessment,リスク評価
+room,ルーム
 root access,ルートアクセス
 root cause analysis,ルートコーズ分析
 root directory,ルートディレクトリ
@@ -1208,6 +1200,7 @@ switch,スイッチ
 symbol,シンボル
 symmetric encryption,対称暗号
 synchronization,同期
+synchronous,同期
 syntax,シンタックス
 system administrator,システム管理者
 system architecture,システムアーキテクチャ
@@ -1292,6 +1285,7 @@ transmission control protocol,トランスミッションコントロールプ�
 transmission,トランスミッション
 transport layer security,トランスポート層セキュリティ
 tree data structure,木構造データ
+tree,ツリー
 trim,トリム
 trimming,トリミング
 trojan horse,トロイの木馬
@@ -1359,8 +1353,7 @@ virtual private cloud,仮想プライベートクラウド
 virtual private network,仮想プライベートネットワーク
 virtual reality,バーチャルリアリティ
 virtual reality,仮想現実
-virtual,バーチャル
-virtual,仮想
+virtual,バーチャル(仮想)
 virtualization platform,仮想化プラットフォーム
 virtualization,仮想化
 virus definition,ウイルス定義
