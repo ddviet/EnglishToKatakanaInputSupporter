@@ -15,8 +15,10 @@ address bar,アドレスバー
 address,アドレス
 admin panel,管理パネル
 administrator,アドミニストレータ
+adware,アドウェア
 affiliate marketing,アフィリエイトマーケティング
 aggregator,アグリゲーター
+agile,アジャイル
 ai ethics,ai倫理
 ai,エーアイ
 ajax,エイジャックス
@@ -24,6 +26,7 @@ alert notification,アラート通知
 algorithm,アルゴリズム
 alpha testing,アルファテスト
 alphabet,アルファベット
+amazon web services,アマゾンウェブサービス
 amazon,アマゾン
 analysis,
 analytics dashboard,分析ダッシュボード
@@ -31,6 +34,7 @@ android emulator,アンドロイドエミュレーター
 android,アンドロイド
 anonymity,匿名性
 anonymous,アノニマス(匿名)
+ansible,アンシブル
 antivirus software,アンチウイルスソフトウェア
 antivirus,アンチウイルス
 apache,アパッチ
@@ -38,6 +42,7 @@ api gateway,apiゲートウェイ
 api,エーピーアイ
 app analytics,アプリ分析
 app store,アプリストア
+app,アプリ
 apple,アップル
 applet,アプレット
 application layer,アプリケーション層
@@ -47,6 +52,7 @@ area,エリア
 array,配列
 artifact repository,アーティファクトリポジトリ
 artifact,アーティファクト
+artificial intelligence,人工知能
 asp.net,エーエスピードットネット
 asset management,資産管理
 asynchronous,非同期
@@ -59,12 +65,13 @@ audit trail,監査証跡
 authentication,認証
 authorization,認可
 auto complete,オートコンプリート
-auto-scaling,自動スケーリング
 auto,オート
+auto-scaling,自動スケーリング
 automation,オートメーション
 availability zone,アベイラビリティゾーン
 availability,可用性
 avatar,アバター
+aws,エーダブリュエス
 back,バック
 background color,背景色
 background,バックグラウンド
@@ -86,6 +93,10 @@ binary code,バイナリコード
 binary search,二分探索
 bios,バイオス
 bit,ビット
+bitbucket,ビットバケット
+bitcoin,ビットコイン
+bitwise operation,ビット単位の演算
+black hat,ブラックハット
 blacklist,ブラックリスト
 block storage,ブロックストレージ
 block,ブロック
@@ -104,6 +115,7 @@ botnet,ボットネット
 bottom,ボトム
 boundary testing,境界テスト
 box,ボックス
+branch,ブランチ
 break,ブレーク
 breakpoint,ブレークポイント
 bridge,ブリッジ
@@ -112,7 +124,9 @@ broadband,ブロードバンド
 broadcast,ブロードキャスト
 browser extension,ブラウザ拡張
 browser,ブラウザ
+brute force,ブルートフォース
 brute,ブルート
+buffer overflow,バッファオーバーフロー
 buffer,バッファ
 bug,バグ
 build,ビルド
@@ -124,6 +138,8 @@ button,ボタン
 byte,バイト
 bytecode,バイトコード
 c#,シーシャープ
+c++,シープラスプラス
+c,シー
 cache eviction,キャッシュ削除
 cache management,キャッシュ管理
 cache memory,キャッシュメモリ
@@ -152,6 +168,7 @@ check,チェック
 checkin,チェックイン
 checkout,チェックアウト
 checksum,チェックサム
+cherry pick,チェリーピック
 chrome,クローム
 class,クラス
 clean,クリーン
@@ -161,8 +178,8 @@ clickstream analysis,クリックストリーム分析
 client,クライアント
 clipboard,クリップボード
 cloud computing,クラウドコンピューティング
-cloud-native,クラウドネイティブ
 cloud,クラウド
+cloud-native,クラウドネイティブ
 cluster management,クラスター管理
 cluster,クラスタ
 cms,シーエムエス
@@ -174,6 +191,7 @@ codebase,コードベース
 codec,コーデック
 coder,コーダー
 coding standard,コーディング標準
+coding,コーディング
 collaborative filtering,協調フィルタリング
 color,カラー(色)
 combo,コンボ
@@ -184,6 +202,7 @@ comment,コメント
 commit,コミット
 communication,コミュニケーション
 community,コミュニティ
+comparison,比較
 compatibility,互換性
 compile,コンパイル
 compiler,コンパイラー
@@ -198,6 +217,7 @@ computing,コンピューティング
 concatenation,連結
 concurrency control,同時実行制御
 concurrency,コンカレンシー
+concurrent,コンカレント
 confidential,秘密
 config,コンフィグ
 configuration file,設定ファイル
@@ -222,6 +242,7 @@ continuous integration,継続的インテグレーション
 control flow,制御フロー
 control panel,コントロールパネル
 control,コントロール
+controller,コントローラー
 conversion rate,コンバージョン率
 converter,コンバーター
 cookie policy,クッキーポリシー
@@ -233,6 +254,7 @@ coupon,クーポン
 cpu utilization,cpu使用率
 cpu,シーピーユー
 cross-platform,クロスプラットフォーム
+cross-site scripting,クロスサイトスクリプティング
 cryptocurrency,暗号通貨
 cryptographic key,暗号鍵
 css,シーエスエス
@@ -271,10 +293,12 @@ database replication,データベースレプリケーション
 database,データベース
 datacenter management,データセンター管理
 datacenter,データセンター
+datadog,データドッグ
 datasource,データソース
 dataspace,データスペース
 date,デート
 datebox,デートボックス
+ddos,ディードス
 deadlock,デッドロック
 debug console,デバッグコンソール
 debug,デバッグ
@@ -292,6 +316,7 @@ defrag,デフラグ
 delete,削除(デリート)
 denial-of-service attack,サービス拒否攻撃
 dependency injection,依存性注入
+dependency,依存関係
 deploy,デプロイ
 deployment model,デプロイメントモデル
 deployment pipeline,デプロイメントパイプライン
@@ -313,6 +338,7 @@ diagram,ダイアグラム
 dial,ダイヤル
 dialog,ダイアログ
 dialup,ダイヤルアップ
+dictionary attack,辞書攻撃
 digit,デジット
 digital asset management,デジタル資産管理
 digital certificate,デジタル証明書
@@ -345,8 +371,8 @@ document management,ドキュメント管理
 document,資料(ドキュメント)
 domain controller,ドメインコントローラー
 domain name,ドメインネーム
-domain-specific language,ドメイン特化言語
 domain,ドメイン
+domain-specific language,ドメイン特化言語
 dot,ドット
 down,ダウン
 download,ダウンロード
@@ -366,12 +392,13 @@ dynamic,ダイナミック
 e-commerce,イーコマース
 e-learning,イーラーニング
 e-signature,電子署名
-ebook,電子書籍
+ebook,電子ブック(電子書籍)
 edge computing,エッジコンピューティング
 edit,エディット
 edition,エディション(版)
 editor,エディタ
 elastic compute,エラスティックコンピュート
+elasticsearch,エラスティックサーチ
 electronic,エレクトロニック(電子)
 elevator,エレベーター
 email client,メールクライアント
@@ -386,6 +413,7 @@ encode,エンコード
 encryption algorithm,暗号化アルゴリズム
 encryption key,暗号化キー
 encryption,エンクリプション
+encryption,暗号化
 engine,エンジン
 engineer,エンジニア
 engineering,エンジニアリング
@@ -400,8 +428,8 @@ escalation,エスカレーション
 ethernet cable,イーサネットケーブル
 ethernet,イーサネット
 event handler,イベントハンドラー
-event-driven architecture,イベント駆動アーキテクチャ
 event,イベント
+event-driven architecture,イベント駆動アーキテクチャ
 example,例
 excel,エクセル
 exception handling,例外処理
@@ -411,6 +439,7 @@ execution context,実行コンテキスト
 execution time,実行時間
 expansion card,拡張カード
 exploit kit,エクスプロイトキット
+exploit,エクスプロイト
 explorer,エクスプローラ
 export,エクスポート
 extensible markup language,拡張可能なマークアップ言語
@@ -449,6 +478,7 @@ flash storage,フラッシュストレージ
 flash,フラッシュ
 fleet management,フリート管理
 flexible,フレキシブル
+floating point,浮動小数点数
 flood attack,フラッド攻撃
 floppy disk,フロッピーディスク
 flow control,フロー制御
@@ -470,8 +500,8 @@ frontend,フロントエンド
 ftp server,ftpサーバー
 ftp,エフティーピー
 full stack developer,フルスタック開発者
-full-stack development,フルスタック開発
 full,フル
+full-stack development,フルスタック開発
 function,ファンクション(関数)
 functional programming,関数型プログラミング
 functional requirement,機能要件
@@ -481,21 +511,29 @@ gate,ゲート
 gateway protocol,ゲートウェイプロトコル
 gateway router,ゲートウェイルーター
 gateway,ゲートウェイ
+gcp,ジーシーピー
 general availability,一般提供
 geofencing,ジオフェンシング
 gif,ジフ
 git branching,gitブランチング
 git repository,gitリポジトリ
 git,ギット
+github,ギットハブ
+gitlab,ギットラボ
 glass,ガラス
 global load balancing,グローバルロードバランシング
 global,グローバル
+go,ゴー
+google cloud platform,グーグルクラウドプラットフォーム
 google,グーグル
+grafana,グラファナ
 graph database,グラフデータベース
+graph,グラフ
 graphic,グラフィック
 graphical interface,グラフィカルインターフェース
 graphics card,グラフィックスカード
 graphics,グラフィックス
+gray hat,グレイハット
 grid computing,グリッドコンピューティング
 group,グループ
 guest operating system,ゲストオペレーティングシステム
@@ -510,10 +548,14 @@ hardware virtualization,ハードウェア仮想化
 hardware,ハードウェア
 hash function,ハッシュ関数
 hash table,ハッシュテーブル
+hash,ハッシュ
+hashtag,ハッシュタグ
 header,ヘッダ
 health check,ヘルスチェック
+heap overflow,ヒープオーバーフロー
 heap,ヒープ
 help,ヘルプ
+heroku,ヘロク
 high availability,高可用性
 high performance computing,高性能コンピューティング
 hint,ヒント
@@ -527,6 +569,7 @@ host,ホスト
 hosting,ホスティング
 hot,ホット
 hotfix,ホットフィックス
+html,エイチティーエムエル
 http request,httpリクエスト
 http,エイチティーティーピー
 https encryption,https暗号化
@@ -538,11 +581,13 @@ hypervisor,ハイパーバイザー
 icon,アイコン
 ide,アイディーイー
 identity and access management,アイデンティティおよびアクセス管理
+identity,アイデンティティ
 image processing,画像処理
 image recognition,画像認識
 image,イメージ
 immediate,イミディエイト
 immutable infrastructure,不変インフラ
+immutable,イミュータブル
 implement,インプリメント
 import,インポート
 in,イン
@@ -553,6 +598,7 @@ incremental,インクリメンタル
 index,インデクス
 index,インデックス
 indexed database,インデックス付きデータベース
+influencer,インフルエンサー
 information security,情報セキュリティ
 information technology,情報技術
 infrastructure as code,コードとしてのインフラ
@@ -576,6 +622,7 @@ interface design,インターフェース設計
 interface,インターフェース
 internal storage,インターナルストレージ
 internal,インターナル(内部)
+internet of things,モノのインターネット
 internet,インターネット
 interpreter,インタプリタ
 intrusion detection system,侵入検知システム
@@ -585,8 +632,8 @@ ip address,アイピーアドレス
 ip tunneling,ipトンネリング
 iphone,アイフォン
 ipsec,アイピーセック
-ipv6,ipv6
 issue tracking,問題追跡
+issue,イシュー
 it governance,itガバナンス
 item,アイテム(項目)
 iteration loop,繰り返しループ
@@ -596,6 +643,7 @@ java virtual machine,java仮想マシン
 java,ジャバ
 javascript,ジャバスクリプト
 jenkins pipeline,ジェンキンズパイプライン
+jenkins,ジェンキンス
 jira,ジラ
 job queue,ジョブキュー
 job scheduling,ジョブスケジューリング
@@ -605,7 +653,7 @@ json file,jsonファイル
 json,ジェイソン
 jump,ジャンプ
 just-in-time compilation,ジャストインタイムコンパイル
-jvm,jvm
+kanban,カンバン
 kernel,カーネル
 key logger,キーロガー
 key management,キー管理
@@ -619,7 +667,9 @@ keyword search,キーワード検索
 keyword,キーワード
 kilometer,キロメートル
 knowledge base,ナレッジベース
+kotlin,コトリン
 kpi,kpi
+kubernetes,クーバネティス
 lan cable,lanケーブル
 lan,ラン
 language,言語
@@ -630,7 +680,6 @@ layer,レイヤ(層)
 layered architecture,レイヤードアーキテクチャ
 layout,レイアウト
 ldap authentication,ldap認証
-ldap,ldap
 learning,ラーニング
 left click,左クリック
 left scroll,左スクロール
@@ -648,6 +697,7 @@ lightweight protocol,軽量プロトコル
 line,ライン
 link aggregation,リンクアグリゲーション
 link,リンク
+linux,リナックス
 list,リスト
 load balancer,ロードバランサー
 load balancing algorithm,ロードバランシングアルゴリズム
@@ -656,7 +706,7 @@ load,ロード
 loader,ローダー
 local area network,ローカルエリアネットワーク
 local storage,ローカルストレージ
-localization,ローカライズ
+localization,ローカリゼーション
 lock,ロック
 log aggregation,ログ集約
 log file,ログファイル
@@ -671,8 +721,8 @@ long,ロング(長い)
 lookup,ルックアップ
 machine code,機械語
 machine learning,機械学習
-machine-to-machine communication,マシンツーマシンコミュニケーション
 machine,マシン
+machine-to-machine communication,マシンツーマシンコミュニケーション
 macro virus,マクロウイルス
 macro,マクロ
 mail,メール
@@ -716,6 +766,8 @@ method,メソッド(方式)
 microcode,マイクロコード
 microkernel,マイクロカーネル
 microservice,マイクロサービス
+microsoft azure,マイクロソフトアジュール
+microsoft teams,マイクロソフトチームズ
 middle,ミドル
 middleware service,ミドルウェアサービス
 middleware,ミドルウェア
@@ -734,6 +786,7 @@ modem,モデム
 modify,修正
 modular architecture,モジュラーアーキテクチャ
 module,モジュール
+mongodb,モンゴディービー
 monitor,モニター
 monitoring tool,モニタリングツール
 motherboard,マザーボード
@@ -744,9 +797,15 @@ multi-factor authentication,多要素認証
 multi-tenant architecture,マルチテナントアーキテクチャ
 multi-threading,マルチスレッディング
 multimedia,マルチメディア
+multiprocessing,マルチプロセッシング
 multitasking,マルチタスク
 music,ミュージック
+mutex,ミューテックス
+mvc,エムブイシー
+mvp,エムブイピー
+mvvm,エムブイブイエム
 my,マイ
+mysql,マイエスキューエル
 name,ネーム
 namespace management,名前空間管理
 namespace,名前空間
@@ -774,21 +833,22 @@ network traffic analysis,ネットワークトラフィック分析
 network,ネットワーク
 newest,最新
 news,ニュース
-next-generation firewall,次世代ファイアウォール
 next,ネクスト(次)
+next-generation firewall,次世代ファイアウォール
 node network,ノードネットワーク
-node.js,ノードジェイエス
 node,ノード
+node.js,ノードジェイエス
 nosql database,nosqlデータベース
+nosql,ノーエスキューエル
 note,ノート
 notebook,ノートブック
 ntp server,ntpサーバー
 null,ヌル
 number,ナンバー
 object storage,オブジェクトストレージ
+object,オブジェクト
 object-oriented design,オブジェクト指向設計
 object-oriented,オブジェクト指向
-object,オブジェクト
 observability,観測性
 ocr,オーシーアール
 off,オフ
@@ -810,6 +870,7 @@ operational technology,運用技術
 optical drive,オプティカルドライブ
 optimization,最適化
 option,オプション
+oracle,オラクル
 orchestration tool,オーケストレーションツール
 out,アウト
 outline,アウトライン
@@ -829,6 +890,7 @@ page,ページ
 panel,パネル
 parallel computing,並列計算
 parallel processing,パラレル処理
+parallel processing,並列処理
 parameter,パラメータ
 parsing,パース
 part,パート(一部)
@@ -847,6 +909,7 @@ path,パス
 pattern,パターン
 pay,ペイ(支払う)
 payload,ペイロード
+pdf,ピーディーエフ
 peer-to-peer network,ピアツーピアネットワーク
 peer-to-peer,ピアツーピア
 penetration testing,ペネトレーションテスト
@@ -862,6 +925,7 @@ phishing protection,フィッシング保護
 phishing scam,フィッシング詐欺
 phishing,フィッシング
 photo,フォト
+php,ピーエイチピー
 physical security,物理的セキュリティ
 picture,ピクチャー
 ping,ピング
@@ -872,10 +936,11 @@ plan,プラン(計画)
 platform as a service,プラットフォーム・アズ・ア・サービス
 platform,プラットフォーム
 please,お願いします
+plug,プラグ
 plug-and-play,プラグアンドプレイ
 plug-in,プラグイン
-plug,プラグ
 plugin,プラグイン
+podcast,ポッドキャスト
 point of presence,ポイントオブプレゼンス
 point,ポイント
 policy enforcement,ポリシー実施
@@ -889,8 +954,9 @@ port scanning,ポートスキャン
 port,ポート
 portal,ポータル
 post office,ポストオフィス(郵便局)
-post-mortem,ポストモーテム
 post,ポスト
+post-mortem,ポストモーテム
+postgresql,ポストグレエスキューエル
 power,パワー
 pre,プリ
 predictive analytics,予測分析
@@ -918,6 +984,7 @@ program,プログラム
 programming,プログラミング
 progressive web app,プログレッシブウェブアプリ
 project lifecycle,プロジェクトライフサイクル
+project management,プロジェクト管理
 project,プロジェクト
 projector,プロジェクター
 prompt,プロンプト
@@ -933,6 +1000,7 @@ public cloud,パブリッククラウド
 public key infrastructure,公開鍵基盤
 public key,公開鍵
 public,パブリック
+pull request,プルリクエスト
 pull,プル
 python,パイソン
 qr code,キューアールコード
@@ -959,12 +1027,12 @@ read-only memory,リードオンリーメモリ
 real-time analytics,リアルタイム分析
 real-time operating system,リアルタイムオペレーティングシステム
 real-time,リアルタイム
-reboot,リブート
-reboot,再起動
+reboot,リブート(再起動)
 rebuild,リビルド
 recovery,リカバリ
 recursion depth,再帰の深さ
 recursion,再帰
+redis,レディス
 redundancy,冗長性
 redundant array,冗長配列
 redundant system,冗長システム
@@ -996,9 +1064,9 @@ resource management,リソース管理
 resource,リソース
 resources,リソース
 responsive design,レスポンシブデザイン
-rest api,rest api
 rest api,レストエーピーアイ
 restart,リスタート(再起動)
+restful,レストフル
 restore point,リストアポイント
 restore,リストア
 return value,リターンバリュー(戻り値)
@@ -1020,6 +1088,7 @@ router,ルータ
 router,ルーター
 routing protocol,ルーティングプロトコル
 rsa encryption,rsa暗号化
+ruby,ルビー
 rule-based system,ルールベースシステム
 runtime environment,ランタイム環境
 runtime error,ランタイムエラー
@@ -1042,6 +1111,7 @@ script language,スクリプト言語
 script,スクリプト
 scripting language,スクリプト言語
 scroll,スクロール
+scrum,スクラム
 sdk,エスディーケー
 sdlc phases,sdlcフェーズ
 search engine optimization,検索エンジン最適化
@@ -1073,8 +1143,8 @@ service discovery,サービスディスカバリー
 service level agreement,サービスレベル合意
 service level agreement,サービスレベル契約
 service pack,サービスパック
-service-oriented architecture,サービス指向アーキテクチャ
 service,サービス
+service-oriented architecture,サービス指向アーキテクチャ
 session hijacking,セッションハイジャック
 session management,セッション管理
 session,セッション
@@ -1096,8 +1166,8 @@ side,サイド(側)
 sign,サイン
 signal,シグナル(信号)
 signature file,シグネチャファイル
-signature-based detection,署名ベースの検出
 signature,シグネチャ(署名)
+signature-based detection,署名ベースの検出
 sim card,simカード
 single sign-on,シングルサインオン
 single,シングル
@@ -1106,7 +1176,9 @@ site,サイト
 sitemap,サイトマップ
 size,サイズ
 skill,スキル
+skype,スカイプ
 sla management,sla管理
+slack,スラック
 sleep,スリープ
 smart card,スマートカード
 smart device,スマートデバイス
@@ -1117,6 +1189,7 @@ snapshot backup,スナップショットバックアップ
 snapshot,スナップショット
 sniffer,スニファー
 snippet,スニペット
+soap,ソープ
 social engineering,ソーシャルエンジニアリング
 social,ソーシャル
 socket,ソケット
@@ -1129,8 +1202,8 @@ software patch,ソフトウェアパッチ
 software repository,ソフトウェアリポジトリ
 software stack,ソフトウェアスタック
 software update,ソフトウェアアップデート
-software-defined network,ソフトウェア定義ネットワーク
 software,ソフトウェア
+software-defined network,ソフトウェア定義ネットワーク
 solid-state drive,ソリッドステートドライブ
 solution,ソリューション
 sound,サウンド
@@ -1151,13 +1224,15 @@ spreadsheet,スプレッドシート
 sprint planning,スプリントプランニング
 spy,スパイ
 spyware,スパイウェア
-sql injection,sqlインジェクション
+sql injection,エスキューエルインジェクション
 sql,エスキューエル
+sqlite,エスキューライト
 ssh tunneling,sshトンネリング
 ssh,エスエスエイチ
 ssl certificate,ssl証明書
 ssl,エスエスエル
 sso,sso
+stack overflow,スタックオーバーフロー
 stack,スタック
 staging environment,ステージング環境
 staging,ステージング
@@ -1195,6 +1270,7 @@ surfing,サーフィン
 suspend,サスペンド
 swapping,スワッピング
 swarm intelligence,スウォームインテリジェンス
+swift,スウィフト
 swipe,スワイプ
 switch,スイッチ
 symbol,シンボル
@@ -1239,6 +1315,7 @@ template engine,テンプレートエンジン
 template,テンプレート
 terminal emulator,ターミナルエミュレータ
 terminal,ターミナル
+terraform,テラフォーム
 test automation,テスト自動化
 test coverage,テストカバレッジ
 test environment,テスト環境
@@ -1291,7 +1368,10 @@ trimming,トリミング
 trojan horse,トロイの木馬
 trouble,トラブル
 tutorial,チュートリアル
+twitch,ツイッチ
+twitter,ツイッター
 two-factor authentication,二要素認証
+typescript,タイプスクリプト
 uat environment,ユーエーティー環境
 uat,ユーエーティー
 ubuntu,ウブントゥ
@@ -1300,7 +1380,9 @@ unified modeling language,統一モデリング言語
 uninstall,アンインストール
 unit of work,ユニットオブワーク
 unit test,ユニットテスト
+unit testing,単体テスト
 universal serial bus,ユニバーサルシリアルバス
+unix,ユニックス
 unstructured data,非構造化データ
 up,アップ
 update,アップデート
@@ -1327,6 +1409,7 @@ user provisioning,ユーザー提供
 user session,ユーザーセッション
 user,ユーザー
 username,ユーザーネーム
+username,ユーザー名
 utility computing,ユーティリティコンピューティング
 utility program,ユーティリティプログラム
 utility,ユーティリティ
@@ -1368,7 +1451,9 @@ vpn,ブイピーエヌ
 vr headset,ブイアールヘッドセット
 vulnerability assessment,脆弱性評価
 vulnerability management,脆弱性管理
+vulnerability,脆弱性
 wan,ワン
+waterfall,ウォーターフォール
 web analytics,ウェブ分析
 web application firewall,ウェブアプリケーションファイアウォール
 web application,ウェブアプリケーション
@@ -1391,12 +1476,14 @@ webinar,ウェビナー
 website design,ウェブサイトデザイン
 website,ウェブサイト
 whilelist,ホワイトリスト
+white hat,ホワイトハット
 wi-fi hotspot,ワイファイホットスポット
 wi-fi,ワイファイ
 widget toolkit,ウィジェットツールキット
 widget,ウィジェット
 wildcard certificate,ワイルドカード証明書
 window,ウィンドウ
+windows,ウィンドウズ
 wireless access point,ワイヤレスアクセスポイント
 wireless adapter,ワイヤレスアダプター
 wireless communication,ワイヤレス通信
@@ -1410,7 +1497,9 @@ workflow,ワークフロー
 www,ダブリューダブリューダブリュー
 xml parser,エックスエムエルパーサー
 xml,エックスエムエル
+xss,エックスエスエス
 yaml,ヤムル
+youtube,ユーチューブ
 zero-day exploit,ゼロデイエクスプロイト
 zero-day vulnerability,ゼロデイ脆弱性
 zipped file,ジップファイル
